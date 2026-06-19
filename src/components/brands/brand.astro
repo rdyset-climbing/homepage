@@ -1,0 +1,14 @@
+---
+import { getBrandById } from "../../content";
+
+const { id } = Astro.props;
+const brand = getBrandById(id);
+const { name, description_i18n } = brand;
+---
+
+<div>
+  <h2>{name}</h2>
+  <div>
+    {description_i18n.en}
+  </div>
+</div>

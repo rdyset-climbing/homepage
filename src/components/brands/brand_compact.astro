@@ -1,0 +1,11 @@
+---
+import { getBrandById, getBrandPath } from "../../content";
+
+const { id } = Astro.props;
+const brand = getBrandById(id);
+const { name } = brand;
+---
+
+<div>
+  <h2><a href={getBrandPath(brand)}>{name}</a></h2>
+</div>

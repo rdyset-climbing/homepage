@@ -1,0 +1,22 @@
+---
+import type { GetStaticPaths, InferGetStaticParamsType } from "astro";
+import { getBrands, getBrandBySlug } from "../../content";
+import { idToSlug, slugToId } from "../../helpers";
+import Layout from "../../layouts/Layout.astro";
+import Brand from "../../components/brands/brand.astro";
+
+export const getStaticPaths = (async () => {
+  const brands = await getBrands();
+  return brands.map((brand) => idToSlug(brand.id));
+}) satisfies GetStaticPaths;
+
+type Params = InferGetStaticParamsType<typeof getStaticPaths>;
+
+const { id: slug } = Astro.params as Params;
+const brand = await getBrandBySlug(slug)!;
+const { name, id } = brand;
+---
+
+<Layout title={name}>
+  <Brand id={id} />
+</Layout>

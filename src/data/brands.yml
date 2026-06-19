@@ -1,0 +1,564 @@
+# statuses: unpublished/preview/published
+- id: under_blue_holds
+  status: 1
+  name: Under Blue Holds
+  url: https://ubh.jp/
+  instagram: ubh.global
+  city: Tokyo
+  description_i18n:
+    en: >
+      Under Blue Holds is probably Japan's best-known hold maker thanks to their distinctive “tuna” macro, which has even appeared in world cups. 
+
+      They specialize in volumes and macros, making them a great option for setting modern, comp-style climbs.
+    fr: >
+      Under Blue Holds est probablement la marque de prises la plus connue du Japon, en large partie grace à leur prise “maguro” (“thon” en Japonais) qui a meme fait partie de blocs de coupe du monde. 
+
+      Ils se spécialisent dans les volumes et les prises de large envergure, ce qui en fait une option idéale pour ouvrir des blocs de compétition modernes.
+    ja: >
+      xxx
+  founder:
+    name_i18n:
+      en: XXX
+      ja: YYY
+    bio_i18n:
+      en: >
+        bio XXX
+      ja: >
+        bio YYY
+      fr: >
+        bio ZZZ
+    photo:
+  moves:
+    - dynamic
+    - powerful
+  tags:
+    - volumes
+    - macros
+    - holds
+
+- id: sunny_grips
+  status: 1
+  name: Sunny Grips
+  url: https://sunnygrips.official.ec/
+  instagram: sunnygrips
+  city:
+  description_i18n:
+    en: >
+      xxx
+    ja: >
+      xxx
+    fr: >
+      xxx
+  founder:
+    name_i18n:
+      en:
+      ja:
+    bio_i18n:
+      en: >
+      ja: >
+      fr: >
+    photo:
+  tags:
+    - holds
+
+- id: hazama_holds
+  status: 1
+  name: Hazama Holds
+  url: https://seen-hygienic-7da.notion.site/HAZAMA-holds-042be0847ac34f12a1270c3db669ce4a
+  instagram: hazamaholds
+  city:
+  description_i18n:
+    en: >
+      Hazama Holds offer a large variety of realistic, rock-like holds, each carefully designed to offer a different climbing experience.
+
+      These holds are perfect to set precise, technical climbs that emulate outdoor climbing while remaining gentle on the fingers.
+    fr: >
+      Hazama Holds offre une large variété de prises réalistes, chacunes conçues pour offrir une expérience différente à chaque fois. 
+
+      Ces prises sont parfaites pour ouvrir des blocs techniques et précis, qui simulent la grimpe en extérieur tout en ménageant la peau.
+    ja: >
+      xxx
+  founder:
+    name_i18n:
+      en:
+      ja:
+    bio_i18n:
+      en: >
+      ja: >
+      fr: >
+    photo:
+  moves:
+    - precision
+  tags:
+    - holds
+    - small_holds
+    - rock
+
+- id: mojo_holds
+  status: 1
+  name: Mojo Holds
+  url: https://mojohold.myshopify.com/
+  instagram: mojo_hold
+  city:
+  description_i18n:
+    en: >
+      Mojo is one of Japan's fastest-growing hold makers, and their holds offer a new take on the dual-tex hold, featuring a very unique blend of no-texture surface combined with realistic rock shapes. 
+
+      They are perfect to introduce gym-goers to more rock-like sensations while preserving the fun, flowy style that makes large macros so great in the first place.
+    fr: >
+      Mojo est une des marques connaissant le plus de succès au Japon actuellement, et leur prises proposent une nouvelle vision du dual-tex, avec un mélange asez unique de surface non-texturée et de zone émulant la roche naturelle. 
+
+      C'est un moyen parfait de proposer aux grimpeurs en salle des sensations plus proches de la grimpe en extérieur, tout en préservant le style fun et fluide auquel ils sont habitués.
+    ja: >
+      xxx
+  founder:
+    name_i18n:
+      en:
+      ja:
+    bio_i18n:
+      en: >
+      ja: >
+      fr: >
+    photo:
+  moves:
+    - powerful
+    - precision
+  tags:
+    - holds
+    - rock
+
+- id: k_crimp
+  status: 1
+  name: K.crimp
+  url: https://kcrimp.base.shop
+  instagram: k.crimphold
+  city:
+  description_i18n:
+    en: >
+      K.crimp specializes in producing dual-tex wooden holds in a large variety of shapes.
+
+      On top of being aesthetically pleasing and produced using a sustainable material, their holds' great texture makes them perfect for setting big moves or incline boulders.
+    fr: >
+      K.crimp est spécialisé dans la production de prises bi-textures en bois. 
+
+      Au delà du coté renouvelable et esthétique, l'ajout de texture permet d'utiliser ces prises pour ouvrir des blocs dynamiques, y compris sur des murs en dévers.
+    ja: >
+      xxx
+  founder:
+    name_i18n:
+      en:
+      ja:
+    bio_i18n:
+      en: >
+      ja: >
+      fr: >
+    photo:
+  moves:
+    - powerful
+  tags:
+    - holds
+    - wooden_holds
+
+- id: zero_block
+  status: 1
+  name: Zero Block
+  url:
+  instagram: zeroblock_holds
+  city:
+  description_i18n:
+    en: >
+      Zero Block offers a range of medium-size holds at very affordable prices, and with a huge variety of shapes and hold types. 
+
+      Their range goes from flowy and organic to straight and angular, making it perfect to spice up beginner and intermediate boulders with uncommon grips.
+    fr: >
+      Zero Block propose une gamme de prises de moyenne taille, a des prix abordables et avec une grande variété de formes et de types de prises. 
+
+      Leur gamme contient aussi bien des prises rondes et organiques que des formes plus droites et angulaires, ce qui en fait des prises idéales pour rendre les blocs débutants et intermédiaires uniques et intéressants.
+    ja: >
+      xxx
+  founder:
+    name_i18n:
+      en:
+      ja:
+    bio_i18n:
+      en: >
+      ja: >
+      fr: >
+    photo:
+  moves:
+    - versatile
+  tags:
+    - holds
+
+- id: zero_plus
+  status: 1
+  name:
+  url:
+  instagram: zeroplus._.since2023
+  city:
+  description_i18n:
+    en: >
+      Zero Block's sister brand is geared towards higher-end dual-tex holds, with a variety of beautiful finishes that will stand out in any climbing gym.
+    fr: >
+      Marque soeur de Zero Block, Zero Plus offre des prises dual-tex haut-de-gamme avec différentes finitions qui sortiront du lot dans n'importe salle d'escalade.
+    ja: >
+      xxx
+  founder:
+    name_i18n:
+      en:
+      ja:
+    bio_i18n:
+      en: >
+      ja: >
+      fr: >
+    photo:
+  moves:
+    - powerful
+    - dynamic
+  tags:
+    - macros
+
+- id: volny
+  status: 1
+  name: Volny
+  url: https://volny.base.shop/categories/3236401
+  instagram: volny_holds/
+  city:
+  description_i18n:
+    en: >
+      Volny may be famous for being the Japanese gym featuring the World's Densest Spray Wall, but their hold-making division is definitely worth paying attention to as well. 
+
+      Specializing in smaller-scale crimps, each Volny hold is meticulously designed to force climbers' fingers in specific positions or otherwise present new climbing challenges, proving that smaller holds can be just as interesting to climb on as their larger counterparts.
+    fr: >
+      Volny est connu pour être la salle possédant le spraywall le plus dense au monde, mais leur collection de prises mérite également le détour. 
+
+      Volny se spécialise dans les prises plus petites, et cela se ressent dans leur gamme, où chaque prise est méticuleusement étudiée pour forcer une position des doigts spécifiques ou poser de nouveaux challenges aux grimpeurs. Comme quoi les petites prises peuvent être toutes aussi intéressantes que les grandes!
+    ja: >
+      xxx
+  founder:
+    name_i18n:
+      en:
+      ja:
+    bio_i18n:
+      en: >
+      ja: >
+      fr: >
+    photo:
+  moves:
+    - precision
+    - powerful
+  tags:
+    - holds
+    - small_holds
+
+- id: project_daihold
+  status: 1
+  name: Project Daihold
+  url: https://project-climbing.com/daihold/
+  instagram: project_daihold
+  city:
+  description_i18n:
+    en: >
+      You can see the shaper's experience through each Project Daihold hold: each set trains different finger positions, walking the fine line between too hard and too easy in order to make you a better climber.
+    fr: >
+      Les prises Project Daihold montrent l'expérience de leur concepteur: chaque set entraine une position des doigts différente, trouvant l'équilibre parfait entre trop facile à atrapper et trop dur à tenir, afin de toujours pousser les grimpeurs à se surpasser.
+    ja: >
+      xxx
+  founder:
+    name_i18n:
+      en:
+      ja:
+    bio_i18n:
+      en: >
+      ja: >
+      fr: >
+    photo:
+  moves:
+    - precision
+    - powerful
+  tags:
+    - holds
+    - small_holds
+
+- id: iwakagami
+  status: 1
+  name: Iwakagami
+  url: https://iwakagami.base.shop/
+  instagram: iwakagami_holds
+  city:
+  description_i18n:
+    en: >
+      Iwakagami's goal is to simulate outdoor climbing, and they achieve this by painstakingly crafting each hold to be as close to real rock as possible.
+
+      The result is an indoor climbing experience that requires careful finger and body positioning on a level rarely seen indoors, yet remains easy on the skin.
+    fr: >
+      La mission d'Iwakagami est de simuler la grimpe en extérieur, et pour se faire ils travaillent chaque prise individuellement afin de lui donner un aspect le plus proche de la vraie roche possible.
+
+      Le résultat est une grimpe en intérieur qui demande d'ajuster la position des doigts et du corps au millimètre près, tout en préservant la peau.
+    ja: >
+      xxx
+  founder:
+    name_i18n:
+      en:
+      ja:
+    bio_i18n:
+      en: >
+      ja: >
+      fr: >
+    photo:
+  moves:
+    - precision
+  tags:
+    - rock
+    - macros
+
+- id: tataanz
+  status: 1
+  name: Tataanz
+  url: https://www.tataanz.com/
+  instagram: tataanz_climbinghold
+  city: Kurayoshi
+  description_i18n:
+    en: >
+      Tataanz blurs the line between volume and hold, producing rounded, friendly shapes that immediately make you want to jump on the wall and figure out how to grip them. 
+
+      Their holds are perfect to offer a volume-like climbing experience without requiring as much body tension and physicality as traditional plywood shapes.
+    fr: >
+      Tataanz joue a brouiller la ligne entre prise et volume en produisant des formes rondes et ludiques qui donnent envie de sauter sur le mur les essayer dès qu'on les aperçoit. 
+
+      Leur prises sont parfaites pour offrir une expérience de grimpe sur volumes, tout en demandant moins de contraction et de tension que les volumes traditionels.
+    ja: >
+      xxx
+  founder:
+    name_i18n:
+      en:
+      ja:
+    bio_i18n:
+      en: >
+      ja: >
+      fr: >
+    photo:
+  moves:
+    - dynamic
+    - flowy
+  tags:
+    - wooden_holds
+    - volumes
+    - macros
+
+- id: fatcap
+  status: 1
+  name: Fat Cap
+  url: https://fatcap.official.ec/
+  instagram: fat_cap_industries
+  city:
+  description_i18n:
+    en: >
+      Fat Cap is famous for its teddy-bear holds, but don't be fooled by their cute appearance: wrestling those bears can be (almost) as challenging as fighting the real animal. 
+
+      Fat Cap also sells hardware for volume and climbing wall manufacturing.
+    fr: >
+      xxx
+    ja: >
+      xxx
+  founder:
+    name_i18n:
+      en:
+      ja:
+    bio_i18n:
+      en: >
+      ja: >
+      fr: >
+    photo:
+  moves:
+    - powerful
+  tags:
+    - holds
+    - small_holds
+    - hardware
+
+- id: wakai
+  status: 1
+  name:
+  url:
+  city:
+  description_i18n:
+    en: >
+      xxx
+    ja: >
+      xxx
+    fr: >
+      xxx
+  founder:
+    name_i18n:
+      en:
+      ja:
+    bio_i18n:
+      en: >
+      ja: >
+      fr: >
+    photo:
+  tags:
+    - hardware
+
+- id: zioblock
+  status: 1
+  name: ZiOblock
+  url:
+  instagram: zioblock_climbingholds
+  city:
+  description_i18n:
+    en: >
+      xxx
+    ja: >
+      xxx
+    fr: >
+      xxx
+  founder:
+    name_i18n:
+      en:
+      ja:
+    bio_i18n:
+      en: >
+      ja: >
+      fr: >
+    photo:
+  moves:
+    - versatile
+  tags:
+    - holds
+
+- id: monkey_hold
+  status: 1
+  name: Monkey Hold
+  url: https://monkey-hold.com/
+  instagram: monkeyhold_japan
+  city:
+  description_i18n:
+    en: >
+      Monkey Hold takes wooden climbing holds to the next level by adding a transparent grippy finish, without taking away from the material's natural beauty. 
+
+      The result are holds that you can hold on to even on steeper walls, at a price that won't break the bank.
+    fr: >
+      Monkey Holds a perfectionné l'art de produire des prises en bois en leur ajoutant un finish texturé transparent, qui permet d'avoir plus de friction sans pour autant nuir a la beauté naturelle du matériau. 
+
+      Le résultat est une gamme de prises utilisables même sur les dévers plus forts, à un prix qui reste très abordable.
+    ja: >
+      xxx
+  founder:
+    name_i18n:
+      en:
+      ja:
+    bio_i18n:
+      en: >
+      ja: >
+      fr: >
+    photo:
+  moves:
+    - powerful
+  tags:
+    - holds
+    - wooden_holds
+
+- id: involute_holds
+  status: 1
+  name: Involute Holds
+  url: https://dbouldering.shop14.makeshop.jp/view/category/involuteholds
+  instagram: dbouldering_distributor
+  city:
+  description_i18n:
+    en: >
+      Involute offers a variety of holds and macros that are perfect for modern gym setting.
+    ja: >
+      xxx
+    fr: >
+      xxx
+  founder:
+    name_i18n:
+      en:
+      ja:
+    bio_i18n:
+      en: >
+      ja: >
+      fr: >
+    photo:
+  moves:
+    - dynamic
+    - powerful
+  tags:
+    - holds
+    - macros
+
+- id: radical
+  status: 1
+  name: Radical
+  url: https://radicalcilmb.base.shop/
+  instagram: https://www.instagram.com/radicalwoodvolumes/
+  city:
+  description_i18n:
+    en: >
+      Radical produces small rock-like crimps.
+    ja: >
+      xxx
+    fr: >
+      xxx
+  founder:
+    name_i18n:
+      en:
+      ja:
+    bio_i18n:
+      en: >
+      ja: >
+      fr: >
+    photo:
+  moves:
+    - precision
+  tags:
+    - holds
+    - small_holds
+
+- id: k16
+  status: 1
+  name: K16
+  url: https://www.k16hold.com/
+  instagram: https://www.instagram.com/k16_climbinghold
+  city:
+  description_i18n:
+    en: >
+      One of Japan's up-and-coming brands, K16 offers beautiful fiberglass holds that will make an impression as soon as you walk into a gym.
+
+      Their no-tex range stands out as a sleek way to break up a climb, or even create an entire boulder that will challenge climbers in brand new ways.
+    fr: >
+      Une autre marque Japonais en plein dévelopmment, K16 propose des prises en fibre de verre qui se remarquent dès qu'on lève les yeux. 
+
+      Leur gamme no-tex (prises non texturées) sort notamment du lot, et permet soit de rompre la monotonie d'un bloc, soit même de créer tout un bloc sans texture qui posera a coup sûr de nouveaux challenges à tout grimpeur.
+    ja: >
+      xxx
+  founder:
+    name_i18n:
+      en:
+      ja:
+    bio_i18n:
+      en: >
+      ja: >
+      fr: >
+    photo:
+  moves:
+    - dynamic
+    - powerful
+  tags:
+    - macros
+# - id:
+#   name:
+#   url:
+#   city:
+#   description_i18n:
+#   founder:
+#     name_i18n:
+#       en:
+#       ja:
+#     bio_i18n:
+#       en: >
+#       ja: >
+#       fr: >
+#     photo:
