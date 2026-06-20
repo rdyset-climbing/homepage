@@ -27,6 +27,7 @@ const brands = defineCollection({
     city: optionalString,
     instagram: optionalString,
     status: z.number().optional(),
+    photo: z.string().optional(),
     founder: z.object({
       name_i18n: i18nString,
       bio_i18n: i18nString,

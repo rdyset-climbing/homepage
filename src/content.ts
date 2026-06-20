@@ -41,6 +41,11 @@ export const getBrandById = async (id: string) => {
 export const getBrandPath = (brand: CollectionEntry<"brands">) =>
   `/brands/${idToSlug(brand.id)}`;
 
+export const getBrandPhoto = (brand: CollectionEntry<"brands">) => {
+  const images = getAllSetImages();
+  return images[`./assets/holds/${brand.id}/${brand.data.photo}`];
+};
+
 // sets
 
 export const getSets = async () => await getCollection("hold_sets");
