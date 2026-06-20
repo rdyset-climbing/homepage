@@ -2,10 +2,13 @@
 import { getBrandById, getBrandPath } from "../../content";
 
 const { id } = Astro.props;
-const brand = getBrandById(id);
-const { name } = brand;
+const brand = await getBrandById(id);
+if (!brand) return Astro.redirect("/404");
+const { name, url } = brand.data;
 ---
 
 <div>
   <h2><a href={getBrandPath(brand)}>{name}</a></h2>
+  <p><a href={url}>{url}</a></p>
+  <hr />
 </div>

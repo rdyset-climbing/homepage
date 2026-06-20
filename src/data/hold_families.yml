@@ -1,0 +1,16 @@
+# mojo_hold
+
+- id: mojo_hueco
+  brand: mojo_holds
+  name: Hueco
+  url: https://mojohold.myshopify.com/en/collections/hueco-%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA
+
+- id: mojo_twoface
+  brand: mojo_holds
+  name: Twoface
+  url: https://mojohold.myshopify.com/en/collections/twoface
+  description_i18n:
+    en: >
+      Inspired by the rock formations of Hueco Tanks, the pockets, ridges, and three-dimensional contours provide a sense of security for beginners and offer options for nuanced movement to advanced climbers.
+    ja: >
+      Hueco Tanks の岩から着想を得たポケットやシワ、立体的な凹凸は、初心者には安心感を、上級者には繊細なムーブの選択肢を提供します。

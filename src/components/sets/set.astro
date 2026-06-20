@@ -1,0 +1,21 @@
+---
+import { Image } from "astro:assets";
+import { getSetById, getSetPath, getSetPhoto } from "../../content";
+
+const { id } = Astro.props;
+const set = await getSetById(id);
+if (!set) return Astro.redirect("/404");
+const { name, url, photos, brand } = set.data;
+---
+
+<div>
+  <h2><a href={getSetPath(set)}>{name}</a></h2>
+  <p><a href={url}>{url}</a></p>
+  <div>
+    {
+      photos.map((photo) => (
+        <Image alt="foo" width={400} src={getSetPhoto(set, photo)} />
+      ))
+    }
+  </div>
+</div>

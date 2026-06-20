@@ -1,0 +1,83 @@
+# sizes: S (crimps) | M (holds) | L (macros) | XL (volumes)
+
+# iwakagami
+
+- id: granite_screw_on_set_2
+  brand: iwakagami
+  name: Granite screw-on set SO-GR-02
+  family: granite
+  quantity: 22
+  url: https://iwakagami.base.shop/items/134446674
+  price: 19500
+  currency: JPY
+  size: S
+  description_i18n:
+    en: >
+      This is a set of 22 screw-on holds modeled after granite stones found in a mountain stream, using molds taken directly from the original stones.
+    ja: >
+      花崗岩のビス止め22個セットです。山中の小川にあった石から型取りして作製しました。
+  photos:
+    - granite_screw_on_1.jpg
+    - granite_screw_on_2.jpg
+
+- id: granite_gr_3
+  brand: iwakagami
+  name: Granite GR-03
+  family: granite
+  quantity: 1
+  url: https://iwakagami.base.shop/items/56923717
+  price: 19500
+  currency: JPY
+  size: L
+  description_i18n:
+    en: >
+      As it is made from granite polished in a riverbed, the surface is generally smooth, but it becomes grippable once chalked up. When oriented vertically, it requires a "wrap grip"; when oriented horizontally, you can choose between a relatively manageable grip and an extremely difficult one.
+    ja: >
+      河原で磨かれた花崗岩のため全体的にツルツルしていますが、チョークが馴染むと持てるようになります。縦向きではラップ持ち、横向きでは比較的持てる向きと極悪な向きが選べます。
+  photos:
+    - granite_gr_3_1.jpg
+    - granite_gr_3_2.jpg
+
+# mojo_holds
+
+- id: twoface_incut_sloper_m
+  brand: mojo_holds
+  name: Twoface Incut Sloper M
+  family: mojo_twoface
+  quantity: 2
+  url: https://mojohold.myshopify.com/en/products/twoface-in-cut-sloper-m-2%E5%80%8B%E3%82%BB%E3%83%83%E3%83%88
+  size: M
+  price: 12000
+  currency: JPY
+  description_i18n:
+    en: >
+      This set combines a smooth, no-tex surface with a grippy finish to create slightly incut, organic sloper shapes.
+  photos:
+    - twoface_incut_sloper_m_1.webp
+    - twoface_incut_sloper_m_2.webp
+
+- id: hueco_roof_jugs
+  brand: mojo_holds
+  name: Hueco Roof Jugs M
+  family: mojo_hueco
+  url: https://mojohold.myshopify.com/en/products/hueco-m-roof-jug-8?variant=46538463215670
+  size: M
+  price: 19800
+  currency: JPY
+  quantity: 8
+  description_i18n:
+    en: >
+      These holds feature a deep in-cut profile—despite their modest width—and an undercut lip, providing a grip sensation similar to holding a deep, jug-like pocket.
+
+      They allow for three-finger grips and help establish a perfect climbing rhythm.
+
+      On gentler inclines, they offer a solid, secure hold, making them an excellent choice for beginners and entry-level climbers.
+    ja: >
+      幅は控えめだけど深めのインカットに加えて返しもあります。まるで深いポケットガバを持っているような保持感。
+
+      スリーフィンガーで保持したり絶妙なクライミングのリズムを作れます。
+
+      緩い傾斜ならガシッとつかめてビギナーやエントリー向けにも良い
+  photos:
+    - hueco_roof_jugs_1.webp
+    - hueco_roof_jugs_2.webp

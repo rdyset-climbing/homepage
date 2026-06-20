@@ -5,10 +5,15 @@ import { z } from "astro/zod";
 // 2. Import loader(s)
 import { glob, file } from "astro/loaders";
 
+const optionalString = z
+  .string()
+  .nullish()
+  .transform((v) => v ?? null);
+
 const i18nString = z.object({
-  en: z.string(),
-  fr: z.string(),
-  ja: z.string(),
+  en: optionalString,
+  fr: optionalString,
+  ja: optionalString,
 });
 
 // 3. Define your collection(s)
@@ -16,31 +21,48 @@ const brands = defineCollection({
   loader: file("src/data/brands.yml"),
   schema: z.object({
     id: z.string(),
-    name: z.string(),
+    name: optionalString,
     description_i18n: i18nString,
-    url: z.string(),
-    city: z.string(),
+    url: optionalString,
+    city: optionalString,
+    instagram: optionalString,
+    status: z.number().optional(),
     founder: z.object({
       name_i18n: i18nString,
       bio_i18n: i18nString,
-      photo: z.string(),
+      photo: optionalString,
     }),
-    moves: z.array(z.string()),
-    tags: z.array(z.string()),
+    moves: z.array(z.string()).optional().default([]),
+    tags: z.array(z.string()).optional().default([]),
   }),
 });
 
-// 3. Define your collection(s)
+const hold_families = defineCollection({
+  loader: file("src/data/hold_families.yml"),
+  schema: z.object({
+    id: z.string(),
+    brand: reference("brands"),
+    name: z.string(),
+    url: z.string(),
+  }),
+});
+
 const hold_sets = defineCollection({
   loader: file("src/data/hold_sets.yml"),
   schema: z.object({
     id: z.string(),
-    holdMakerId: reference("hold_makers"),
-    name_i18n: i18nString,
+    brand: reference("brands"),
+    name: z.string(),
+    family: reference("holds_families"),
+    url: z.string(),
+    size: z.enum(["S", "M", "L", "XL"]),
+    price: z.number(),
+    currency: z.enum(["JPY", "USD", "EUR"]).default("JPY"),
+    quantity: z.number(),
     description_i18n: i18nString,
     photos: z.array(z.string()),
   }),
 });
 
 // 4. Export a single `collections` object to register your collection(s)
-export const collections = { brands, hold_sets };
+export const collections = { brands, hold_families, hold_sets };
