@@ -14,7 +14,8 @@
   "dependencies": {
     "@astrojs/check": "^0.9.9",
     "@astrojs/mdx": "^6.0.3",
-    "astro": "^6.4.8"
+    "astro": "^6.4.8",
+    "sharp": "^0.35.2"
   },
   "devDependencies": {
     "@rollup/plugin-yaml": "^5.0.0",
