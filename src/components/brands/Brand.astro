@@ -1,6 +1,6 @@
 ---
 import { getBrandById, getSetsByBrandId } from "../../content";
-import Set from "../sets/set.compact.astro";
+import Set from "../sets/Set.compact.astro";
 
 const { id } = Astro.props;
 const brand = await getBrandById(id);
