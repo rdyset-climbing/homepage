@@ -1,29 +1,48 @@
 ---
 const { currency: defaultCurrency, price } = Astro.props;
-
-export const formatNumber = new Intl.NumberFormat().format;
-
-const cookieCurrency = undefined;
-const currency = cookieCurrency || defaultCurrency || "JPY";
-
-const ratios = {
-  JPY: 1,
-  EUR: 0.0054,
-  USD: 0.0062,
-};
-const symbols = {
-  JPY: "¥",
-  EUR: "€",
-  USD: "$",
-};
-
-const convertedPrice = Math.round(price * ratios[currency]);
 ---
 
-<div class="price">{symbols[currency]}{formatNumber(convertedPrice)}</div>
+<price-display
+  data-price={price}
+  data-default-currency={defaultCurrency || "JPY"}></price-display>
+
+<script>
+  const STORAGE_KEY = "currency";
+
+  const ratios: Record<string, number> = {
+    JPY: 1,
+    EUR: 0.0054,
+    USD: 0.0062,
+  };
+  const symbols: Record<string, string> = {
+    JPY: "¥",
+    EUR: "€",
+    USD: "$",
+  };
+
+  class PriceDisplay extends HTMLElement {
+    connectedCallback() {
+      this.render();
+      window.addEventListener("currencychange", () => this.render());
+    }
+
+    render() {
+      const price = Number(this.dataset.price);
+      const defaultCurrency = this.dataset.defaultCurrency || "JPY";
+      const currency = localStorage.getItem(STORAGE_KEY) || defaultCurrency;
+      const converted = Math.round(price * ratios[currency]);
+      const formatted = new Intl.NumberFormat().format(converted);
+      this.textContent = `${symbols[currency]}${formatted}`;
+    }
+  }
+
+  if (!customElements.get("price-display")) {
+    customElements.define("price-display", PriceDisplay);
+  }
+</script>
 
 <style>
-  .price {
+  price-display {
     font-size: 1.4rem;
     opacity: 0.5;
   }

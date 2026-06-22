@@ -1,4 +1,5 @@
 ---
+import Currency from "./other/Currency.astro";
 // const nav = ["about", "brands"];
 const nav = ["about"];
 ---
@@ -8,6 +9,7 @@ const nav = ["about"];
     <h1><a href="/"><img src="/images/readyset_1.svg" alt="ReadySet" /></a></h1>
   </div>
   <nav class="header-right">
+    <Currency />
     <ul>
       {
         nav.map((item) => (

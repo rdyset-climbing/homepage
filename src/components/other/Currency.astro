@@ -1,0 +1,59 @@
+---
+const currencies = ["JPY", "EUR", "USD"];
+---
+
+<div class="currency-switcher">
+  {currencies.map((c) => <button class="currency-btn" data-currency={c}>{c}</button>)}
+</div>
+
+<script>
+  const STORAGE_KEY = "currency";
+
+  function updateButtons(active: string) {
+    document.querySelectorAll<HTMLButtonElement>(".currency-btn").forEach((btn) => {
+      btn.classList.toggle("active", btn.dataset.currency === active);
+    });
+  }
+
+  function init() {
+    const stored = localStorage.getItem(STORAGE_KEY) || "JPY";
+    updateButtons(stored);
+
+    document.querySelectorAll<HTMLButtonElement>(".currency-btn").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const currency = btn.dataset.currency!;
+        localStorage.setItem(STORAGE_KEY, currency);
+        updateButtons(currency);
+        window.dispatchEvent(new CustomEvent("currencychange", { detail: currency }));
+      });
+    });
+  }
+
+  init();
+</script>
+
+<style>
+  .currency-switcher {
+    display: flex;
+    gap: 4px;
+  }
+  .currency-btn {
+    border: 1px solid #333;
+    background: none;
+    padding: 4px 8px;
+    cursor: pointer;
+    font-size: 0.85rem;
+    font-family: inherit;
+    opacity: 0.4;
+
+    &.active {
+      background: #333;
+      color: white;
+      opacity: 1;
+    }
+
+    &:hover:not(.active) {
+      opacity: 0.8;
+    }
+  }
+</style>
