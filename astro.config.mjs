@@ -8,7 +8,6 @@ export default defineConfig({
     plugins: [yaml()],
   },
   site: "https://www.rdyset.com",
-  base: "/my-repo",
   prefetch: true,
   integrations: [mdx()],
 });
