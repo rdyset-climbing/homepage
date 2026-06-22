@@ -12,12 +12,19 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/check": "^0.9.5",
-    "@astrojs/mdx": "^4.3.11",
-    "astro": "^6.4.7"
+    "@astrojs/check": "^0.9.9",
+    "@astrojs/mdx": "^6.0.3",
+    "astro": "^6.4.8"
   },
   "devDependencies": {
-    "@rollup/plugin-yaml": "^4.1.2",
+    "@rollup/plugin-yaml": "^5.0.0",
     "sass-embedded": "^1.100.0"
+  },
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "11.8.0",
+      "onFail": "download"
+    }
   }
 }
