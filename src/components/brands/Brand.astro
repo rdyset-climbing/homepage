@@ -1,5 +1,7 @@
 ---
 import { getBrandById, getSetsByBrandId } from "../../content";
+import Homepage from "../icons/Homepage.astro";
+import Instagram from "../icons/Instagram.astro";
 import Set from "../sets/Set.compact.astro";
 
 const { id } = Astro.props;
@@ -14,8 +16,17 @@ const sets = await getSetsByBrandId(brand.id);
   <div class="brand-side">
     <div class="brand-infos">
       <h2 class="brand-name">{name}</h2>
-      <a class="brand-url" href={url}>{url}</a>
-      <a class="brand-instagram" href={instagram}>{instagram}</a>
+
+      <div class="brand-links">
+        <a class="brand-link brand-url" target="_blank" href={url}
+          ><Homepage /></a
+        >
+        <a
+          class="brand-link brand-instagram"
+          target="_blank"
+          href={`https://www.instagram.com/${instagram}`}><Instagram /></a
+        >
+      </div>
       <div>
         {description_i18n.en}
       </div>
@@ -45,6 +56,9 @@ const sets = await getSetsByBrandId(brand.id);
     position: sticky;
     top: var(--spacing);
     background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: var(--halfSpacing);
     /* border: 1px solid #333; */
   }
   .brand-name {
@@ -52,6 +66,21 @@ const sets = await getSetsByBrandId(brand.id);
 
     @media (max-width: 768px) {
       font-size: 2.5rem;
+    }
+  }
+  .brand-links {
+    display: flex;
+    align-items: center;
+    gap: var(--halfSpacing);
+  }
+  .brand-link {
+    height: 24px;
+    width: 24px;
+    display: block;
+    svg {
+      display: block;
+      width: 100%;
+      height: 100%;
     }
   }
   .brand-sets {

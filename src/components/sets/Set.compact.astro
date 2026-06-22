@@ -9,8 +9,9 @@ const { name, url, photos, brand } = set.data;
 ---
 
 <div class="set">
-  <h3 class="set-name"><a href={getSetPath(set)}>{name}</a></h3>
-  <p><a href={url}>{url}</a></p>
+  <!-- <h3 class="set-name"><a href={getSetPath(set)}>{name}</a></h3> -->
+  <h3 class="set-name">{name}</h3>
+  <p><a target="_blank" href={url}>{url}</a></p>
   <div class="set-photos">
     {
       photos.map((photo) => (
