@@ -3,7 +3,7 @@ import type { GetStaticPaths, InferGetStaticParamsType } from "astro";
 import { getBrands, getBrandBySlug } from "../../content";
 import { idToSlug } from "../../helpers";
 import Layout from "../../layouts/Layout.astro";
-import Brand from "../../components/brands/brand.astro";
+import Brand from "../../components/brands/Brand.astro";
 
 export const getStaticPaths = (async () => {
   const brands = await getBrands();
