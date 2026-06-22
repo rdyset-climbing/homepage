@@ -32,6 +32,11 @@ const sets = await getSetsByBrandId(brand.id);
     grid-template-columns: 301px 1fr;
     padding: var(--spacing);
     gap: var(--spacing);
+
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr;
+      padding: var(--halfSpacing);
+    }
   }
   .brand-side {
     position: relative;
@@ -44,6 +49,10 @@ const sets = await getSetsByBrandId(brand.id);
   }
   .brand-name {
     font-size: 4rem;
+
+    @media (max-width: 768px) {
+      font-size: 2.5rem;
+    }
   }
   .brand-sets {
     display: flex;

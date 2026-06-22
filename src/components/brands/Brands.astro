@@ -17,5 +17,9 @@ const brands = await getBrands();
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: var(--halfSpacing);
+
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr;
+    }
   }
 </style>

@@ -6,10 +6,22 @@
   --spacing: 40px;
 }
 
+@media (max-width: 768px) {
+  :root {
+    --halfSpacing: 12px;
+    --spacing: 24px;
+  }
+}
+
 html,
 body {
   margin: 0;
   padding: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 body {

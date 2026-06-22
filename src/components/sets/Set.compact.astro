@@ -27,5 +27,11 @@ const { name, url, photos, brand } = set.data;
   .set-photos {
     display: flex;
     gap: var(--halfSpacing);
+    flex-wrap: wrap;
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
   }
 </style>
