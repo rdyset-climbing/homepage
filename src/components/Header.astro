@@ -1,0 +1,61 @@
+---
+const nav = ["about", "brands"];
+---
+
+<div class="header">
+  <div class="header-left">
+    <h1><a href="/"><img src="/images/readyset_1.svg" alt="ReadySet" /></a></h1>
+    <h3>Showcasing the craft of Japanese climbing holds</h3>
+  </div>
+  <div class="header-right">
+    <nav>
+      <ul>
+        {
+          nav.map((item) => (
+            <li>
+              <a href={`/${item}`}>{item}</a>
+            </li>
+          ))
+        }
+      </ul>
+    </nav>
+  </div>
+</div>
+
+<style>
+  .header {
+    background: white;
+    padding: var(--halfSpacing);
+    display: flex;
+    justify-content: space-between;
+  }
+  .header-left {
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    /* align-items: flex-end; */
+  }
+  h1 {
+    width: 200px;
+    img {
+      display: block;
+    }
+  }
+  h3 {
+    margin-top: -15px;
+    margin-left: 50px;
+    font-size: 1rem;
+  }
+  nav {
+    ul {
+      padding: 0;
+      margin: 0;
+      list-style-type: none;
+      display: flex;
+      gap: var(--halfSpacing);
+      align-items: center;
+      justify-content: center;
+      text-transform: uppercase;
+    }
+  }
+</style>

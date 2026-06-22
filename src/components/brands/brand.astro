@@ -5,18 +5,50 @@ import Set from "../sets/set.compact.astro";
 const { id } = Astro.props;
 const brand = await getBrandById(id);
 if (!brand) return Astro.redirect("/404");
-const { name, description_i18n } = brand.data;
+const { name, description_i18n, url, instagram } = brand.data;
 
 const sets = await getSetsByBrandId(brand.id);
 ---
 
-<div>
-  <h2>{name}</h2>
-  <div>
-    {description_i18n.en}
+<div class="brand-layout">
+  <div class="brand-side">
+    <div class="brand-infos">
+      <h2 class="brand-name">{name}</h2>
+      <a class="brand-url" href={url}>{url}</a>
+      <a class="brand-instagram" href={instagram}>{instagram}</a>
+      <div>
+        {description_i18n.en}
+      </div>
+    </div>
   </div>
-  <div>
-    <h3>Sets</h3>
+  <div class="brand-sets">
     {sets.map((set) => <Set id={set.id} />)}
   </div>
 </div>
+
+<style>
+  .brand-layout {
+    display: grid;
+    grid-template-columns: 301px 1fr;
+    padding: var(--spacing);
+    gap: var(--spacing);
+  }
+  .brand-side {
+    position: relative;
+  }
+  .brand-infos {
+    position: sticky;
+    top: var(--spacing);
+    background-color: white;
+    /* border: 1px solid #333; */
+  }
+  .brand-name {
+    font-size: 4rem;
+  }
+  .brand-sets {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing);
+    background-color: white;
+  }
+</style>

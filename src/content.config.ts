@@ -33,7 +33,6 @@ const brands = defineCollection({
       bio_i18n: i18nString,
       photo: optionalString,
     }),
-    moves: z.array(z.string()).optional().default([]),
     tags: z.array(z.string()).optional().default([]),
   }),
 });
@@ -44,7 +43,7 @@ const hold_families = defineCollection({
     id: z.string(),
     brand: reference("brands"),
     name: z.string(),
-    url: z.string(),
+    url: z.string().optional(),
   }),
 });
 
@@ -56,12 +55,13 @@ const hold_sets = defineCollection({
     name: z.string(),
     family: reference("holds_families"),
     url: z.string(),
-    size: z.enum(["S", "M", "L", "XL"]),
+    size: z.enum(["XS", "S", "M", "L", "XL"]),
     price: z.number(),
     currency: z.enum(["JPY", "USD", "EUR"]).default("JPY"),
     quantity: z.number(),
     description_i18n: i18nString,
     photos: z.array(z.string()),
+    moves: z.array(z.string()).optional().default([]),
   }),
 });
 

@@ -1,11 +1,167 @@
 # sizes: S (crimps) | M (holds) | L (macros) | XL (volumes)
 
+# fat_cap
+
+- id: mugyu_m
+  brand: fat_cap
+  name: Mugyu M
+  family: fat_cap_mugyu
+  quantity: 5
+  url: https://fatcap.official.ec/items/76394610
+  price: 12100
+  currency: JPY
+  size: M
+  description_i18n:
+    en: >
+      With their cute appearance and excellent grip, these are highly versatile holds.
+    ja: >
+      見た目の可愛さと保持感の良さから使い勝手のいいシェイプです。
+  photos:
+    - mugyu_1.jpg
+    - mugyu_2.jpg
+    - mugyu_3.jpg
+
+- id: kuma_crimp
+  brand: fat_cap
+  name: Kuma Krimp
+  family: fat_cap_kuma
+  quantity: 2
+  url: https://fatcap.official.ec/items/28779952
+  price: 3800
+  currency: JPY
+  size: S
+  description_i18n:
+    en: >
+      Make your home workouts cuter and more fun! This is a set of two adorable bear crimp holds for training boards.
+    ja: >
+      お家トレーニングをもっとかわいく、もっと楽しく！かわいいクマちゃんトレーニングボード用クリンプホールド2個セットです
+  photos:
+    - little_kuma_1.jpg
+
+- id: big_kuma
+  brand: fat_cap
+  name: Big Kuma
+  family: fat_cap_kuma
+  quantity: 1
+  url: https://fatcap.official.ec/items/86386733
+  price: 25000
+  currency: JPY
+  size: L
+  description_i18n:
+    en: >
+      An enlarged version of the popular "Kuma-Crimp," but scaling it up has made it feel significantly more positive!
+    ja: >
+      人気のクマクリンプを大きくしただけなのですが大きくなったらかなりポジティブになりました！
+  photos:
+    - big_kuma_1.jpg
+    - big_kuma_2.jpg
+
+- id: glossy_popcorn_boy
+  brand: fat_cap
+  name: Glossy Popcorn Boy
+  family: fat_cap_popcorn_boy
+  quantity: 5
+  url: https://fatcap.official.ec/items/82684852
+  price: 35000
+  currency: JPY
+  size: L
+  description_i18n:
+    en: >
+      The "POPCORN BOY" features a smooth finish—there is no rough friction surface. Zero friction!
+    ja: >
+      ツルツルのPOPCORN BOYザラザラのフリクション面はありません。ゼロフリクション！
+  photos:
+    - glossy_popcorn_boy_1.jpg
+
+# hazama
+
+- id: plates_edges
+  brand: hazama_holds
+  name: Plates edges
+  family: hazama_granite
+  quantity: 7
+  url: https://seen-perfume-126.notion.site/Plates-edges-29f13ea83271814887d2cf15eaa6b170
+  price: 7480
+  currency: JPY
+  size: M
+  description_i18n:
+    en: >
+      This is a set of 22 screw-on holds modeled after granite stones found in a mountain stream, using molds taken directly from the original stones.
+    ja: >
+      花崗岩のビス止め22個セットです。山中の小川にあった石から型取りして作製しました。
+  photos:
+    - plates_edges_1.webp
+
+- id: wrinkle_edges
+  brand: hazama_holds
+  name: Wrinkle edges
+  family: hazama_granite
+  quantity: 5
+  url: https://seen-perfume-126.notion.site/Wrinkle-edges-29f13ea8327181acbcc9eb51c85ed90f
+  price: 9900
+  currency: JPY
+  size: M
+  description_i18n:
+    ja: >
+      しわしわがアイデアを膨らませてくれるセットです。テクスチャを活かした課題作りを想定し、ハンドホールドやフットホールドとしても使いやすくなっています。制限された保持面は、クライマーの指先への意識を高めます。カチ持ちや親指を使ったホールディングが好きな方には持ちやすく感じるはず
+  photos:
+    - wrinkle_edges_1.webp
+    - wrinkle_edges_2.webp
+    - wrinkle_edges_3.webp
+
+- id: dots_micro_footholds
+  brand: hazama_holds
+  name: Dots Micro Footholds
+  family: hazama_objects
+  quantity: 20
+  url: https://seen-perfume-126.notion.site/Dots-micro-footholds-29f13ea83271818bbd35c942c88c2d2c
+  price: 3740
+  currency: JPY
+  size: XS
+  description_i18n:
+    ja: >
+      シビアなフットホールドやサムキャッチに。ありそうでなかった形を活かして自由な発想で使用できるジブスです。
+  photos:
+    - dots_micro_footholds_1.webp
+    - dots_micro_footholds_2.webp
+
+- id: determined_edges
+  brand: hazama_holds
+  name: Determined Edges
+  family: hazama_texperiment
+  quantity: 3
+  url: https://seen-perfume-126.notion.site/Determined-edges-29f13ea83271811fa500e14043f82738
+  price: 22000
+  currency: JPY
+  size: M
+  description_i18n:
+    ja: >
+      某有名課題よりインスパイアされ生み出されたホールドセット。クライマー魂に火を着ける保持感が岩場へ向けて準備するモチベーションを高めてくれるはず。強傾斜から緩傾斜まで幅広く活躍する渾身の力作です。
+  photos:
+    - determined_edges_1.webp
+    - determined_edges_2.webp
+
+- id: cachalot_pinches
+  brand: hazama_holds
+  name: Cachalot Pinches
+  family: hazama_texperiment
+  quantity: 2
+  url: https://seen-perfume-126.notion.site/Cachalot-pinches-29f13ea8327181f694b9c1d96ec54913
+  price: 18700
+  currency: JPY
+  size: M
+  description_i18n:
+    ja: >
+      ピンチとスローパーを掛け合わせたような保持感は強傾斜の真っ向勝負も、緩傾斜のバランシーなクライミングも演出可能。課題のキーホールドとして活躍します。テクスチャーを活かして、持ち方に工夫をさせるような課題づくりに最適です。
+  photos:
+    - cachalot_pinches_1.webp
+    - cachalot_pinches_2.webp
 # iwakagami
 
 - id: granite_screw_on_set_2
   brand: iwakagami
   name: Granite screw-on set SO-GR-02
-  family: granite
+  family: iwakagami_granite
   quantity: 22
   url: https://iwakagami.base.shop/items/134446674
   price: 19500
@@ -81,3 +237,173 @@
   photos:
     - hueco_roof_jugs_1.webp
     - hueco_roof_jugs_2.webp
+
+# monkey_hold
+- id: hinoki_hold_m
+  brand: monkey_hold
+  name: Hinoki Hold M
+  family: monkey_hinoki
+  url: https://monkey-hold.com/?pid=178026316
+  size: M
+  price: 4950
+  currency: JPY
+  quantity: 4
+  description_i18n:
+    ja: >
+      この商品はオリジナルフリクション塗装を施した画期的な木製ホールドで、質感、耐久性に優れた「ヒノキ材」を使用しています。
+      手の馴染み方、木のぬくもりが、ボルダリングを楽しむすべての人に安心と快適さを提供します。
+      ヒノキは日本が世界に誇る素材であり、その香りは心を落ち着かせ、集中力を高めると言われているとともに加工性にも富んでおり、様々な形への加工が可能です。
+      木材が持つ自然の力で、利用者の方々のパフォーマンス向上をサポートします。
+  photos:
+    - hinoki_hold_m_1.webp
+    - hinoki_hold_m_2.webp
+    - hinoki_hold_m_3.webp
+    - hinoki_hold_m_4.webp
+
+- id: cobu_hold
+  brand: monkey_hold
+  name: Cobu Hold
+  family: monkey_cobu
+  url: https://monkey-hold.com/?pid=178094990
+  size: M
+  price: 17050
+  currency: JPY
+  quantity: 4
+  description_i18n:
+    ja: >
+      木の瘤（こぶ）を見たことはありますか？ 自然界に生まれる、木の持つ小さな奇跡です。
+      建築材料としては一見不要に思えるこの部分に、私たちは新たな価値を見出しました。
+      そしてこの瘤を活用し、絶対に同じ形が存在しない「COBU-HOLD」が誕生しました。
+  photos:
+    - cobu_hold_1.webp
+
+# tataanz
+
+- id: freeflap_jug
+  brand: tataanz
+  name: Freeflap Jug
+  family: tataanz_volumes_25_26
+  url: https://www.tataanz.com/products/volume25-26/freeflap/
+  size: L
+  price: 14300
+  currency: JPY
+  quantity: 2
+  description_i18n:
+    en: >
+      The Freeflap Jug series offers a hold that's halfway between a plywood volume and a traditional climbing hold. It's surprinsingly verstaile, being suitable for beginner climbs, coordination moves, and even steep overhangs.
+  photos:
+    - freeflap_jug_1.jpg
+    - freeflap_jug_2.jpg
+    - freeflap_jug_3.jpg
+
+# volny
+
+- id: amoeba
+  brand: volny
+  name: Amoeba
+  family: amoeba
+  url: https://volny.base.shop/items/71399818
+  size: S
+  price: 19800
+  currency: JPY
+  quantity: 10
+  description_i18n:
+    ja: >
+      強制的にセパレート持ちになる形状。
+      Dual Texになって更に強制力アップ。
+      可愛くて目立つのもオススメポイントです。
+  photos:
+    - amoeba_1.jpg
+    - amoeba_2.jpg
+    - amoeba_3.jpg
+    - amoeba_4.jpg
+    - amoeba_5.jpg
+
+- id: dorodoro_pinch
+  brand: volny
+  name: Dorodoro Pinch
+  family: dorodoro
+  url: https://volny.base.shop/items/128991606
+  size: S
+  price: 25000
+  currency: JPY
+  quantity: 8
+  description_i18n:
+    en: >
+      These dual-tex pinches stand out due to their glossy appearance, reminiscent of mud or melted wax.
+  photos:
+    - dorodoro_1.jpg
+    - dorodoro_2.jpg
+    - dorodoro_3.jpg
+
+# k16
+
+- id: noah_2
+  brand: k16
+  name: Noah 2
+  family: noah
+  url: https://k16climbinghold.stores.jp/items/682709ce3e68ea1d7d604c86
+  size: L
+  price: 47300
+  currency: JPY
+  quantity: 1
+  description_i18n:
+    ja: >
+      シェイプのアウトラインが特徴的なモデル。
+      やや薄めのJugなので、ホールドの厚みを出したくない時はこのモデルがおすすめ
+  photos:
+    - noah_2_1.png
+    - noah_2_2.png
+    - noah_2_3.png
+
+- id: surf_reserve_2
+  brand: k16
+  name: Surf Reserve 2
+  family: k16_surf_reserve
+  url: https://k16climbinghold.stores.jp/items/67e7cac1720e981ca3354490
+  size: L
+  price: 50600
+  currency: JPY
+  quantity: 1
+  description_i18n:
+    ja: >
+      小ぶりな大きさに仕上がっているが厚みがある為、かなりポジティブな保持感となっている。
+      保持面がかなり立っている為、強傾斜ではピンチとしても使用可能。
+  photos:
+    - surf_reserve_2_1.webp
+    - surf_reserve_2_2.webp
+    - surf_reserve_2_3.webp
+
+# ubh
+
+- id: maguro_mirror
+  brand: ubh
+  name: Mirror Symmetry
+  family: ubh_mirror
+  url: https://shop.ubh.co.jp/view/item/000000000149
+  size: XL
+  price: 51700
+  currency: JPY
+  quantity: 1
+  description_i18n:
+    en: >
+      A smooth macro with a beautiful dual-texture finish.
+  photos:
+    - mirror_1_1.webp
+    - mirror_1_2.webp
+
+- id: maguro_dt
+  brand: ubh
+  name: Maguro Dual Texture
+  family: ubh_maguro
+  url: https://shop.ubh.co.jp/view/item/000000000222
+  size: XL
+  price: 110000
+  currency: JPY
+  quantity: 1
+  description_i18n:
+    en: >
+      A smaller 140cm version of the classic “tuna” hold seen in IFSC competitions and gyms across Japan.
+  photos:
+    - tuna_dt_1.webp
+    - tuna_dt_2.webp

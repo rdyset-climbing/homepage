@@ -1,0 +1,20 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import T from "../../components/T.astro";
+import { getString, getBrands } from "../../content";
+import BrandCompact from "./Brand.compact.astro";
+
+const brands = await getBrands();
+---
+
+<div class="brands">
+  {brands.map((brand) => <BrandCompact id={brand.id} />)}
+</div>
+
+<style>
+  .brands {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: var(--halfSpacing);
+  }
+</style>

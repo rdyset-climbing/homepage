@@ -1,17 +1,18 @@
 # statuses: unpublished/preview/published
-- id: under_blue_holds
+- id: ubh
   status: 1
   name: Under Blue Holds
   url: https://ubh.jp/
+  photo: tuna_dt_1.webp
   instagram: ubh.global
   city: Tokyo
   description_i18n:
     en: >
-      Under Blue Holds is probably Japan's best-known hold maker thanks to their distinctive “tuna” macro, which has even appeared in world cups. 
+      Under Blue Holds is probably Japan's best-known hold maker thanks to their distinctive “tuna” macro, which has even appeared in world cups.
 
       They specialize in volumes and macros, making them a great option for setting modern, comp-style climbs.
     fr: >
-      Under Blue Holds est probablement la marque de prises la plus connue du Japon, en large partie grace à leur prise “maguro” (“thon” en Japonais) qui a meme fait partie de blocs de coupe du monde. 
+      Under Blue Holds est probablement la marque de prises la plus connue du Japon, en large partie grace à leur prise “maguro” (“thon” en Japonais) qui a meme fait partie de blocs de coupe du monde.
 
       Ils se spécialisent dans les volumes et les prises de large envergure, ce qui en fait une option idéale pour ouvrir des blocs de compétition modernes.
     ja: >
@@ -36,35 +37,36 @@
     - macros
     - holds
 
-- id: sunny_grips
-  status: 1
-  name: Sunny Grips
-  url: https://sunnygrips.official.ec/
-  instagram: sunnygrips
-  city:
-  description_i18n:
-    en: >
-      xxx
-    ja: >
-      xxx
-    fr: >
-      xxx
-  founder:
-    name_i18n:
-      en:
-      ja:
-    bio_i18n:
-      en: >
-      ja: >
-      fr: >
-    photo:
-  tags:
-    - holds
+# - id: sunny_grips
+#   status: 1
+#   name: Sunny Grips
+#   url: https://sunnygrips.official.ec/
+#   instagram: sunnygrips
+#   city:
+#   description_i18n:
+#     en: >
+#       xxx
+#     ja: >
+#       xxx
+#     fr: >
+#       xxx
+#   founder:
+#     name_i18n:
+#       en:
+#       ja:
+#     bio_i18n:
+#       en: >
+#       ja: >
+#       fr: >
+#     photo:
+#   tags:
+#     - holds
 
 - id: hazama_holds
   status: 1
   name: Hazama Holds
   url: https://seen-perfume-126.notion.site/Hazama-holds-29f13ea8327180b28c25dfff4cb28e77
+  photo: plates_edges_1.webp
   instagram: hazamaholds
   city:
   description_i18n:
@@ -128,101 +130,130 @@
     - holds
     - rock
 
-- id: k_crimp
-  status: 1
-  name: K.crimp
-  url: https://kcrimp.base.shop
-  instagram: k.crimphold
-  city:
-  description_i18n:
-    en: >
-      K.crimp specializes in producing dual-tex wooden holds in a large variety of shapes.
+# - id: k_crimp
+#   status: 1
+#   name: K.crimp
+#   url: https://kcrimp.base.shop
+#   instagram: k.crimphold
+#   city:
+#   description_i18n:
+#     en: >
+#       K.crimp specializes in producing dual-tex wooden holds in a large variety of shapes.
 
-      On top of being aesthetically pleasing and produced using a sustainable material, their holds' great texture makes them perfect for setting big moves or incline boulders.
-    fr: >
-      K.crimp est spécialisé dans la production de prises bi-textures en bois. 
+#       On top of being aesthetically pleasing and produced using a sustainable material, their holds' great texture makes them perfect for setting big moves or incline boulders.
+#     fr: >
+#       K.crimp est spécialisé dans la production de prises bi-textures en bois.
 
-      Au delà du coté renouvelable et esthétique, l'ajout de texture permet d'utiliser ces prises pour ouvrir des blocs dynamiques, y compris sur des murs en dévers.
-    ja: >
-      xxx
-  founder:
-    name_i18n:
-      en:
-      ja:
-    bio_i18n:
-      en: >
-      ja: >
-      fr: >
-    photo:
-  moves:
-    - powerful
-  tags:
-    - holds
-    - wooden_holds
+#       Au delà du coté renouvelable et esthétique, l'ajout de texture permet d'utiliser ces prises pour ouvrir des blocs dynamiques, y compris sur des murs en dévers.
+#     ja: >
+#       xxx
+#   founder:
+#     name_i18n:
+#       en:
+#       ja:
+#     bio_i18n:
+#       en: >
+#       ja: >
+#       fr: >
+#     photo:
+#   moves:
+#     - powerful
+#   tags:
+#     - holds
+#     - wooden_holds
 
-- id: zero_block
-  status: 1
-  name: Zero Block
-  url:
-  instagram: zeroblock_holds
-  city:
-  description_i18n:
-    en: >
-      Zero Block offers a range of medium-size holds at very affordable prices, and with a huge variety of shapes and hold types. 
+# - id: zero_block
+#   status: 1
+#   name: Zero Block
+#   url:
+#   instagram: zeroblock_holds
+#   city:
+#   description_i18n:
+#     en: >
+#       Zero Block offers a range of medium-size holds at very affordable prices, and with a huge variety of shapes and hold types.
 
-      Their range goes from flowy and organic to straight and angular, making it perfect to spice up beginner and intermediate boulders with uncommon grips.
-    fr: >
-      Zero Block propose une gamme de prises de moyenne taille, a des prix abordables et avec une grande variété de formes et de types de prises. 
+#       Their range goes from flowy and organic to straight and angular, making it perfect to spice up beginner and intermediate boulders with uncommon grips.
+#     fr: >
+#       Zero Block propose une gamme de prises de moyenne taille, a des prix abordables et avec une grande variété de formes et de types de prises.
 
-      Leur gamme contient aussi bien des prises rondes et organiques que des formes plus droites et angulaires, ce qui en fait des prises idéales pour rendre les blocs débutants et intermédiaires uniques et intéressants.
-    ja: >
-      xxx
-  founder:
-    name_i18n:
-      en:
-      ja:
-    bio_i18n:
-      en: >
-      ja: >
-      fr: >
-    photo:
-  moves:
-    - versatile
-  tags:
-    - holds
+#       Leur gamme contient aussi bien des prises rondes et organiques que des formes plus droites et angulaires, ce qui en fait des prises idéales pour rendre les blocs débutants et intermédiaires uniques et intéressants.
+#     ja: >
+#       xxx
+#   founder:
+#     name_i18n:
+#       en:
+#       ja:
+#     bio_i18n:
+#       en: >
+#       ja: >
+#       fr: >
+#     photo:
+#   moves:
+#     - versatile
+#   tags:
+#     - holds
 
-- id: zero_plus
-  status: 1
-  name:
-  url:
-  instagram: zeroplus._.since2023
-  city:
-  description_i18n:
-    en: >
-      Zero Block's sister brand is geared towards higher-end dual-tex holds, with a variety of beautiful finishes that will stand out in any climbing gym.
-    fr: >
-      Marque soeur de Zero Block, Zero Plus offre des prises dual-tex haut-de-gamme avec différentes finitions qui sortiront du lot dans n'importe salle d'escalade.
-    ja: >
-      xxx
-  founder:
-    name_i18n:
-      en:
-      ja:
-    bio_i18n:
-      en: >
-      ja: >
-      fr: >
-    photo:
-  moves:
-    - powerful
-    - dynamic
-  tags:
-    - macros
+# - id: zero_plus
+#   status: 1
+#   name:
+#   url:
+#   instagram: zeroplus._.since2023
+#   city:
+#   description_i18n:
+#     en: >
+#       Zero Block's sister brand is geared towards higher-end dual-tex holds, with a variety of beautiful finishes that will stand out in any climbing gym.
+#     fr: >
+#       Marque soeur de Zero Block, Zero Plus offre des prises dual-tex haut-de-gamme avec différentes finitions qui sortiront du lot dans n'importe salle d'escalade.
+#     ja: >
+#       xxx
+#   founder:
+#     name_i18n:
+#       en:
+#       ja:
+#     bio_i18n:
+#       en: >
+#       ja: >
+#       fr: >
+#     photo:
+#   moves:
+#     - powerful
+#     - dynamic
+#   tags:
+#     - macros
+
+# - id: sunday_climbing_industry
+#   status: 1
+#   name: Sunday Climbing Industry
+#   url: https://stone-cold-hold-market.com/en
+#   instagram: zeroplus._.since2023
+#   city:
+#   description_i18n:
+#     en: >
+#       Zero Block's sister brand is geared towards higher-end dual-tex holds, with a variety of beautiful finishes that will stand out in any climbing gym.
+#     fr: >
+#       Marque soeur de Zero Block, Zero Plus offre des prises dual-tex haut-de-gamme avec différentes finitions qui sortiront du lot dans n'importe salle d'escalade.
+#     ja: >
+#       xxx
+#   founder:
+#     name_i18n:
+#       en:
+#       ja:
+#     bio_i18n:
+#       en: >
+#       ja: >
+#       fr: >
+#     photo:
+#   moves:
+#     - powerful
+#     - dynamic
+#   tags:
+#     - macros
 
 - id: volny
   status: 1
   name: Volny
   url: https://volny.base.shop/categories/3236401
+  photo: amoeba_1.jpg
   instagram: volny_holds/
   city:
   description_i18n:
@@ -252,34 +283,34 @@
     - holds
     - small_holds
 
-- id: project_daihold
-  status: 1
-  name: Project Daihold
-  url: https://project-climbing.com/daihold/
-  instagram: project_daihold
-  city:
-  description_i18n:
-    en: >
-      You can see the shaper's experience through each Project Daihold hold: each set trains different finger positions, walking the fine line between too hard and too easy in order to make you a better climber.
-    fr: >
-      Les prises Project Daihold montrent l'expérience de leur concepteur: chaque set entraine une position des doigts différente, trouvant l'équilibre parfait entre trop facile à atrapper et trop dur à tenir, afin de toujours pousser les grimpeurs à se surpasser.
-    ja: >
-      xxx
-  founder:
-    name_i18n:
-      en:
-      ja:
-    bio_i18n:
-      en: >
-      ja: >
-      fr: >
-    photo:
-  moves:
-    - precision
-    - powerful
-  tags:
-    - holds
-    - small_holds
+# - id: project_daihold
+#   status: 1
+#   name: Project Daihold
+#   url: https://project-climbing.com/daihold/
+#   instagram: project_daihold
+#   city:
+#   description_i18n:
+#     en: >
+#       You can see the shaper's experience through each Project Daihold hold: each set trains different finger positions, walking the fine line between too hard and too easy in order to make you a better climber.
+#     fr: >
+#       Les prises Project Daihold montrent l'expérience de leur concepteur: chaque set entraine une position des doigts différente, trouvant l'équilibre parfait entre trop facile à atrapper et trop dur à tenir, afin de toujours pousser les grimpeurs à se surpasser.
+#     ja: >
+#       xxx
+#   founder:
+#     name_i18n:
+#       en:
+#       ja:
+#     bio_i18n:
+#       en: >
+#       ja: >
+#       fr: >
+#     photo:
+#   moves:
+#     - precision
+#     - powerful
+#   tags:
+#     - holds
+#     - small_holds
 
 - id: iwakagami
   status: 1
@@ -318,6 +349,7 @@
   status: 1
   name: Tataanz
   url: https://www.tataanz.com/
+  photo: freeflap_jug_3.jpg
   instagram: tataanz_climbinghold
   city: Kurayoshi
   description_i18n:
@@ -348,10 +380,11 @@
     - volumes
     - macros
 
-- id: fatcap
+- id: fat_cap
   status: 1
   name: Fat Cap
   url: https://fatcap.official.ec/
+  photo: kuma_1.jpg
   instagram: fat_cap_industries
   city:
   description_i18n:
@@ -379,61 +412,62 @@
     - small_holds
     - hardware
 
-- id: wakai
-  status: 1
-  name:
-  url:
-  city:
-  description_i18n:
-    en: >
-      xxx
-    ja: >
-      xxx
-    fr: >
-      xxx
-  founder:
-    name_i18n:
-      en:
-      ja:
-    bio_i18n:
-      en: >
-      ja: >
-      fr: >
-    photo:
-  tags:
-    - hardware
+# - id: wakai
+#   status: 1
+#   name:
+#   url: https://store-biz.wakaisangyo.co.jp/
+#   city:
+#   description_i18n:
+#     en: >
+#       xxx
+#     ja: >
+#       xxx
+#     fr: >
+#       xxx
+#   founder:
+#     name_i18n:
+#       en:
+#       ja:
+#     bio_i18n:
+#       en: >
+#       ja: >
+#       fr: >
+#     photo:
+#   tags:
+#     - hardware
 
-- id: zioblock
-  status: 1
-  name: ZiOblock
-  url:
-  instagram: zioblock_climbingholds
-  city:
-  description_i18n:
-    en: >
-      xxx
-    ja: >
-      xxx
-    fr: >
-      xxx
-  founder:
-    name_i18n:
-      en:
-      ja:
-    bio_i18n:
-      en: >
-      ja: >
-      fr: >
-    photo:
-  moves:
-    - versatile
-  tags:
-    - holds
+# - id: zioblock
+#   status: 1
+#   name: ZiOblock
+#   url:
+#   instagram: zioblock_climbingholds
+#   city:
+#   description_i18n:
+#     en: >
+#       xxx
+#     ja: >
+#       xxx
+#     fr: >
+#       xxx
+#   founder:
+#     name_i18n:
+#       en:
+#       ja:
+#     bio_i18n:
+#       en: >
+#       ja: >
+#       fr: >
+#     photo:
+#   moves:
+#     - versatile
+#   tags:
+#     - holds
 
 - id: monkey_hold
   status: 1
   name: Monkey Hold
   url: https://monkey-hold.com/
+  photo: hinoki_hold_m_1.webp
   instagram: monkeyhold_japan
   city:
   description_i18n:
@@ -462,67 +496,39 @@
     - holds
     - wooden_holds
 
-- id: involute_holds
-  status: 1
-  name: Involute Holds
-  url: https://dbouldering.shop14.makeshop.jp/view/category/involuteholds
-  instagram: dbouldering_distributor
-  city:
-  description_i18n:
-    en: >
-      Involute offers a variety of holds and macros that are perfect for modern gym setting.
-    ja: >
-      xxx
-    fr: >
-      xxx
-  founder:
-    name_i18n:
-      en:
-      ja:
-    bio_i18n:
-      en: >
-      ja: >
-      fr: >
-    photo:
-  moves:
-    - dynamic
-    - powerful
-  tags:
-    - holds
-    - macros
-
-- id: radical
-  status: 1
-  name: Radical
-  url: https://radicalcilmb.base.shop/
-  instagram: https://www.instagram.com/radicalwoodvolumes/
-  city:
-  description_i18n:
-    en: >
-      Radical produces small rock-like crimps.
-    ja: >
-      xxx
-    fr: >
-      xxx
-  founder:
-    name_i18n:
-      en:
-      ja:
-    bio_i18n:
-      en: >
-      ja: >
-      fr: >
-    photo:
-  moves:
-    - precision
-  tags:
-    - holds
-    - small_holds
+# - id: radical
+#   status: 1
+#   name: Radical
+#   url: https://radicalcilmb.base.shop/
+#   instagram: https://www.instagram.com/radicalwoodvolumes/
+#   city:
+#   description_i18n:
+#     en: >
+#       Radical produces small rock-like crimps.
+#     ja: >
+#       xxx
+#     fr: >
+#       xxx
+#   founder:
+#     name_i18n:
+#       en:
+#       ja:
+#     bio_i18n:
+#       en: >
+#       ja: >
+#       fr: >
+#     photo:
+#   moves:
+#     - precision
+#   tags:
+#     - holds
+#     - small_holds
 
 - id: k16
   status: 1
   name: K16
-  url: https://www.k16hold.com/
+  url: https://k16climbinghold.stores.jp/
+  photo: noah_2_1.png
   instagram: https://www.instagram.com/k16_climbinghold
   city:
   description_i18n:
@@ -531,7 +537,7 @@
 
       Their no-tex range stands out as a sleek way to break up a climb, or even create an entire boulder that will challenge climbers in brand new ways.
     fr: >
-      Une autre marque Japonais en plein dévelopmment, K16 propose des prises en fibre de verre qui se remarquent dès qu'on lève les yeux. 
+      Une autre marque Japonais en plein dévelopmment, K16 propose des prises en fibre de verre qui se remarquent dès qu'on lève les yeux.
 
       Leur gamme no-tex (prises non texturées) sort notamment du lot, et permet soit de rompre la monotonie d'un bloc, soit même de créer tout un bloc sans texture qui posera a coup sûr de nouveaux challenges à tout grimpeur.
     ja: >
@@ -550,11 +556,19 @@
     - powerful
   tags:
     - macros
-# - id:
-#   name:
-#   url:
+# - id: involute_holds
+#   status: 1
+#   name: Involute Holds
+#   url: https://dbouldering.shop14.makeshop.jp/view/category/involuteholds
+#   instagram: dbouldering_distributor
 #   city:
 #   description_i18n:
+#     en: >
+#       Involute offers a variety of holds and macros that are perfect for modern gym setting.
+#     ja: >
+#       xxx
+#     fr: >
+#       xxx
 #   founder:
 #     name_i18n:
 #       en:
@@ -564,3 +578,27 @@
 #       ja: >
 #       fr: >
 #     photo:
+#   moves:
+#     - dynamic
+#     - powerful
+#   tags:
+#     - holds
+#     - macros
+
+# - id: ddhold
+#   name: DDHold
+#   url: https://ddhold.base.shop/about
+#   instagram: dd_hold
+#   city: Tokyo
+#   description_i18n:
+#     ja: >
+#   founder:
+#     name_i18n:
+#       en:
+#       ja:
+#     bio_i18n:
+#       en: >
+#       ja: >
+#       fr: >
+#     photo:
+

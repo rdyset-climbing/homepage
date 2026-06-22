@@ -16,9 +16,33 @@ const image = getBrandPhoto(brand);
 console.log(image);
 ---
 
-<div>
-  <h2><a href={getBrandPath(brand)}>{name}</a></h2>
-  {image && <Image width={400} alt={name} src={image} />}
-  <p><a href={url}>{url}</a></p>
-  <hr />
+<div class="brand-compact">
+  {
+    image && (
+      <a href={getBrandPath(brand)}>
+        <Image width={400} height={300} alt={name} src={image} />
+      </a>
+    )
+  }
+  <h3 class="brand-name"><a href={getBrandPath(brand)}>{name}</a></h3>
 </div>
+
+<style>
+  .brand-compact {
+    position: relative;
+    border: 3px solid #333;
+  }
+  img {
+  }
+  .brand-name {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #333;
+    padding: var(--halfSpacing);
+    &,
+    & a {
+      color: white;
+    }
+  }
+</style>
