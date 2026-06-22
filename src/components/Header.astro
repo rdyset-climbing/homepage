@@ -1,25 +1,23 @@
 ---
-const nav = ["about", "brands"];
+// const nav = ["about", "brands"];
+const nav = ["about"];
 ---
 
 <div class="header">
   <div class="header-left">
     <h1><a href="/"><img src="/images/readyset_1.svg" alt="ReadySet" /></a></h1>
-    <h3>Showcasing the craft of Japanese climbing holds</h3>
   </div>
-  <div class="header-right">
-    <nav>
-      <ul>
-        {
-          nav.map((item) => (
-            <li>
-              <a href={`/${item}`}>{item}</a>
-            </li>
-          ))
-        }
-      </ul>
-    </nav>
-  </div>
+  <nav class="header-right">
+    <ul>
+      {
+        nav.map((item) => (
+          <li>
+            <a href={`/${item}`}>{item}</a>
+          </li>
+        ))
+      }
+    </ul>
+  </nav>
 </div>
 
 <style>
@@ -41,12 +39,9 @@ const nav = ["about", "brands"];
       display: block;
     }
   }
-  h3 {
-    margin-top: -15px;
-    margin-left: 50px;
-    font-size: 1rem;
-  }
   nav {
+    display: flex;
+    align-items: center;
     ul {
       padding: 0;
       margin: 0;

@@ -1,5 +1,7 @@
 ---
+import Intro from "../components/about/Intro.astro";
 import Heading from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
 import "../styles/main.scss";
 ---
 
@@ -28,6 +30,9 @@ import "../styles/main.scss";
 
     <div class="layout">
       <slot />
+
+      <Intro />
+      <Footer />
     </div>
   </body>
 </html>
@@ -35,6 +40,9 @@ import "../styles/main.scss";
 <style>
   .layout {
     /* background-color: #ccc; */
-    padding: 20px 70px;
+    padding: 40px 80px;
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing);
   }
 </style>

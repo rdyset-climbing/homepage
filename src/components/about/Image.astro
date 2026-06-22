@@ -1,0 +1,14 @@
+---
+import { Image } from "astro:assets";
+import { getSetById, getSetPhoto } from "../../content";
+
+const { set, photo, caption } = Astro.props;
+
+const holdSet = await getSetById(set);
+const imageSrc = holdSet && getSetPhoto(holdSet, photo);
+---
+
+<figure class="image">
+  <Image height={300} width={300} src={imageSrc} alt="foo" />
+  <figcaption>{caption}</figcaption>
+</figure>
