@@ -1,16 +1,26 @@
 ---
-const { currency, price } = Astro.props;
+const { currency: defaultCurrency, price } = Astro.props;
 
+export const formatNumber = new Intl.NumberFormat().format;
+
+const cookieCurrency = undefined;
+const currency = cookieCurrency || defaultCurrency || "JPY";
+
+const ratios = {
+  JPY: 1,
+  EUR: 0.0054,
+  USD: 0.0062,
+};
 const symbols = {
   JPY: "¥",
   EUR: "€",
   USD: "$",
 };
 
-export const formatNumber = new Intl.NumberFormat().format;
+const convertedPrice = Math.round(price * ratios[currency]);
 ---
 
-<div class="price">{symbols[currency]}{formatNumber(price)}</div>
+<div class="price">{symbols[currency]}{formatNumber(convertedPrice)}</div>
 
 <style>
   .price {
