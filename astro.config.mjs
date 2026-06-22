@@ -7,7 +7,8 @@ export default defineConfig({
   vite: {
     plugins: [yaml()],
   },
-  site: "https://rdyset.com",
+  site: "https://www.rdyset.com",
+  base: "/my-repo",
   prefetch: true,
   integrations: [mdx()],
 });

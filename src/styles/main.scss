@@ -1,5 +1,5 @@
-@import "./_reset.scss";
-@import "./_typography.scss";
+@use "./_reset.scss";
+@use "./_typography.scss";
 
 :root {
   --halfSpacing: 20px;
