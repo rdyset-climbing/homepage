@@ -4,12 +4,14 @@
 :root {
   --halfSpacing: 20px;
   --spacing: 40px;
+  --doubleSpacing: 80px;
 }
 
 @media (max-width: 768px) {
   :root {
     --halfSpacing: 12px;
     --spacing: 24px;
+    --doubleSpacing: 48px;
   }
 }
 

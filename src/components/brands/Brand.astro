@@ -2,7 +2,9 @@
 import { getBrandById, getSetsByBrandId } from "../../content";
 import Homepage from "../icons/Homepage.astro";
 import Instagram from "../icons/Instagram.astro";
+import Price from "../other/Price.astro";
 import Set from "../sets/Set.compact.astro";
+import Tags from "./Tags.astro";
 
 const { id } = Astro.props;
 const brand = await getBrandById(id);
@@ -16,6 +18,7 @@ const sets = await getSetsByBrandId(brand.id);
   <div class="brand-side">
     <div class="brand-infos">
       <h2 class="brand-name">{name}</h2>
+      <Tags brand={brand} />
 
       <div class="brand-links">
         <a class="brand-link brand-url" target="_blank" href={url}
@@ -27,7 +30,7 @@ const sets = await getSetsByBrandId(brand.id);
           href={`https://www.instagram.com/${instagram}`}><Instagram /></a
         >
       </div>
-      <div>
+      <div class="brand-description">
         {description_i18n.en}
       </div>
     </div>
@@ -41,12 +44,10 @@ const sets = await getSetsByBrandId(brand.id);
   .brand-layout {
     display: grid;
     grid-template-columns: 301px 1fr;
-    padding: var(--spacing);
-    gap: var(--spacing);
+    gap: var(--doubleSpacing);
 
     @media (max-width: 768px) {
       grid-template-columns: 1fr;
-      padding: var(--halfSpacing);
     }
   }
   .brand-side {
@@ -86,7 +87,10 @@ const sets = await getSetsByBrandId(brand.id);
   .brand-sets {
     display: flex;
     flex-direction: column;
-    gap: var(--spacing);
+    gap: var(--doubleSpacing);
     background-color: white;
+  }
+  .brand-description {
+    font-size: 1.3rem;
   }
 </style>

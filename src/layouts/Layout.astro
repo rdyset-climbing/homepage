@@ -29,8 +29,9 @@ import "../styles/main.scss";
     <Heading />
 
     <div class="layout">
-      <slot />
-
+      <main>
+        <slot />
+      </main>
       <Intro />
       <Footer />
     </div>
@@ -48,5 +49,8 @@ import "../styles/main.scss";
     @media (max-width: 768px) {
       padding: var(--spacing) var(--halfSpacing);
     }
+  }
+  main {
+    margin-bottom: var(--spacing);
   }
 </style>

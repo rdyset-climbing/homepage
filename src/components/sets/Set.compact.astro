@@ -1,35 +1,73 @@
 ---
 import { Image } from "astro:assets";
 import { getSetById, getSetPath, getSetPhoto } from "../../content";
+import Price from "../other/Price.astro";
 
 const { id } = Astro.props;
 const set = await getSetById(id);
 if (!set) return Astro.redirect("/404");
-const { name, url, photos, brand } = set.data;
+const { name, url, photos, brand, description_i18n, currency, price } =
+  set.data;
 ---
 
 <div class="set">
   <!-- <h3 class="set-name"><a href={getSetPath(set)}>{name}</a></h3> -->
-  <h3 class="set-name">{name}</h3>
-  <p><a target="_blank" href={url}>{url}</a></p>
+  <div class="set-heading">
+    <h3 class="set-name">{name}</h3>
+    <span><Price currency={currency} price={price} /></span>
+  </div>
+  <div>{description_i18n.en}</div>
   <div class="set-photos">
     {
       photos.map((photo) => (
-        <Image alt="foo" width={400} src={getSetPhoto(set, photo)} />
+        <a target="_blank" href={url}>
+          <Image
+            alt="foo"
+            width={240}
+            height={160}
+            src={getSetPhoto(set, photo)}
+          />
+        </a>
       ))
     }
+    <a class="set-link" href={url} target="_blank">View Set→</a>
   </div>
 </div>
 
 <style>
+  .set {
+    display: flex;
+    flex-direction: column;
+    gap: var(--halfSpacing);
+  }
+  .set-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+  }
   .set-name {
     font-size: 2.5rem;
+    margin: 0;
+  }
+  .set-link {
+    aspect-ratio: 3/2;
+    display: block;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    display: grid;
+    width: 240px;
+    height: 160px;
+    place-items: center;
+    font-size: 2rem;
   }
   .set-photos {
     display: flex;
-    gap: var(--halfSpacing);
+    gap: 5px;
     flex-wrap: wrap;
 
+    a,
     img {
       max-width: 100%;
       height: auto;

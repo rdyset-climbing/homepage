@@ -1,0 +1,20 @@
+---
+const { currency, price } = Astro.props;
+
+const symbols = {
+  JPY: "¥",
+  EUR: "€",
+  USD: "$",
+};
+
+export const formatNumber = new Intl.NumberFormat().format;
+---
+
+<div class="price">{symbols[currency]}{formatNumber(price)}</div>
+
+<style>
+  .price {
+    font-size: 1.4rem;
+    opacity: 0.5;
+  }
+</style>

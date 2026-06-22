@@ -1,0 +1,21 @@
+---
+const { brand } = Astro.props;
+const { tags } = brand.data;
+---
+
+<div class="brand-tags">
+  {tags.map((tag) => <span>{tag.replaceAll("_", " ")}</span>)}
+</div>
+
+<style>
+  .brand-tags {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    span {
+      background: #ccc;
+      padding: 3px 8px;
+      border-radius: 3px;
+    }
+  }
+</style>

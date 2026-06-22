@@ -35,7 +35,6 @@
   tags:
     - volumes
     - macros
-    - holds
 
 # - id: sunny_grips
 #   status: 1
@@ -92,9 +91,8 @@
   moves:
     - precision
   tags:
-    - holds
     - small_holds
-    - rock
+    - rock-like
 
 - id: mojo_holds
   status: 1
@@ -127,8 +125,7 @@
     - powerful
     - precision
   tags:
-    - holds
-    - rock
+    - rock-like
 
 # - id: k_crimp
 #   status: 1
@@ -280,7 +277,6 @@
     - precision
     - powerful
   tags:
-    - holds
     - small_holds
 
 # - id: project_daihold
@@ -342,7 +338,7 @@
   moves:
     - precision
   tags:
-    - rock
+    - rock-like
     - macros
 
 - id: tataanz
@@ -408,7 +404,6 @@
   moves:
     - powerful
   tags:
-    - holds
     - small_holds
     - hardware
 
@@ -493,7 +488,6 @@
   moves:
     - powerful
   tags:
-    - holds
     - wooden_holds
 
 # - id: radical
