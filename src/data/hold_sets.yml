@@ -16,6 +16,8 @@
       With their cute appearance and excellent grip, these are highly versatile holds.
     ja: >
       見た目の可愛さと保持感の良さから使い勝手のいいシェイプです。
+    fr: >
+      Avec leur apparence mignonne et leur excellente prise en main, ces prises sont très polyvalentes.
   photos:
     - mugyu_1.jpg
     - mugyu_2.jpg
@@ -35,6 +37,8 @@
       Make your home workouts cuter and more fun! This is a set of two adorable bear crimp holds for training boards.
     ja: >
       お家トレーニングをもっとかわいく、もっと楽しく！かわいいクマちゃんトレーニングボード用クリンプホールド2個セットです
+    fr: >
+      Rendez vos entraînements à la maison plus mignons et amusants ! Cet ensemble de deux adorables prises crimp en forme d'ours est destiné aux panneaux d'entraînement.
   photos:
     - little_kuma_1.jpg
 
@@ -52,6 +56,8 @@
       An enlarged version of the popular "Kuma-Crimp," but scaling it up has made it feel significantly more positive!
     ja: >
       人気のクマクリンプを大きくしただけなのですが大きくなったらかなりポジティブになりました！
+    fr: >
+      Une version agrandie du populaire « Kuma-Crimp ». En l’agrandissant, la prise devient beaucoup plus positive !
   photos:
     - big_kuma_1.jpg
     - big_kuma_2.jpg
@@ -70,6 +76,8 @@
       The "POPCORN BOY" features a smooth finish—there is no rough friction surface. Zero friction!
     ja: >
       ツルツルのPOPCORN BOYザラザラのフリクション面はありません。ゼロフリクション！
+    fr: >
+      Le « POPCORN BOY » possède une finition lisse : il n’y a aucune surface de friction rugueuse. Zéro friction !
   photos:
     - glossy_popcorn_boy_1.jpg
 
@@ -89,6 +97,8 @@
       This is a set of 22 screw-on holds modeled after granite stones found in a mountain stream, using molds taken directly from the original stones.
     ja: >
       花崗岩のビス止め22個セットです。山中の小川にあった石から型取りして作製しました。
+    fr: >
+      Cet ensemble de 22 prises à visser est inspiré de pierres de granit trouvées dans un ruisseau de montagne, moulées directement à partir des pierres originales.
   photos:
     - plates_edges_1.webp
 
@@ -104,6 +114,10 @@
   description_i18n:
     ja: >
       しわしわがアイデアを膨らませてくれるセットです。テクスチャを活かした課題作りを想定し、ハンドホールドやフットホールドとしても使いやすくなっています。制限された保持面は、クライマーの指先への意識を高めます。カチ持ちや親指を使ったホールディングが好きな方には持ちやすく感じるはず
+    fr: >
+      Un ensemble qui stimule la créativité grâce à ses formes plissées. Pensé pour créer des voies utilisant la texture, il peut être utilisé comme prise de main ou de pied. Les surfaces de préhension limitées sensibilisent les grimpeurs au placement des doigts. Il devrait plaire aux personnes qui aiment les prises en arquée ou avec le pouce.
+    en: >
+      This set inspires creativity with its wrinkled shapes. Designed for route setting that makes use of texture, these holds work well as both handholds and footholds. The limited gripping surfaces encourage climbers to focus on precise finger placement. Climbers who like crimp grips or using their thumbs should find them comfortable.
   photos:
     - wrinkle_edges_1.webp
     - wrinkle_edges_2.webp
@@ -121,6 +135,10 @@
   description_i18n:
     ja: >
       シビアなフットホールドやサムキャッチに。ありそうでなかった形を活かして自由な発想で使用できるジブスです。
+    fr: >
+      Pour des prises de pied exigeantes ou des appuis avec le pouce. Ces micro-prises permettent une utilisation libre et créative grâce à une forme originale.
+    en: >
+      For demanding footholds and thumb catches. These jibs can be used creatively thanks to their unusual shapes.
   photos:
     - dots_micro_footholds_1.webp
     - dots_micro_footholds_2.webp
@@ -137,6 +155,10 @@
   description_i18n:
     ja: >
       某有名課題よりインスパイアされ生み出されたホールドセット。クライマー魂に火を着ける保持感が岩場へ向けて準備するモチベーションを高めてくれるはず。強傾斜から緩傾斜まで幅広く活躍する渾身の力作です。
+    fr: >
+      Un ensemble de prises inspiré par une voie célèbre. Sa sensation de tenue, capable d’allumer l’esprit du grimpeur, aide à se préparer pour la falaise. Il excelle sur une large gamme d’inclinaisons, des dévers raides aux murs plus doux.
+    en: >
+      A hold set inspired by a famous climbing problem. The satisfying grip that ignites a climber’s spirit should help motivate you before heading to the rock. This is a carefully crafted set that performs across a wide range of angles, from steep overhangs to slabs.
   photos:
     - determined_edges_1.webp
     - determined_edges_2.webp
@@ -153,9 +175,14 @@
   description_i18n:
     ja: >
       ピンチとスローパーを掛け合わせたような保持感は強傾斜の真っ向勝負も、緩傾斜のバランシーなクライミングも演出可能。課題のキーホールドとして活躍します。テクスチャーを活かして、持ち方に工夫をさせるような課題づくりに最適です。
+    fr: >
+      Cette sensation de tenue entre pincement et sloper permet aussi bien des combats en force sur dévers raides que des mouvements d’équilibre sur faible inclinaison. Idéale comme prise clé d’une voie, elle favorise la création de problèmes demandant de varier les façons de tenir.
+    en: >
+      The grip feeling combines elements of a pinch and a sloper, allowing for both powerful climbing on steep overhangs and balance-focused climbing on gentler angles. It works well as a key hold and is ideal for creating problems that encourage varied gripping techniques.
   photos:
     - cachalot_pinches_1.webp
     - cachalot_pinches_2.webp
+
 # iwakagami
 
 - id: granite_screw_on_set_2
@@ -172,6 +199,8 @@
       This is a set of 22 screw-on holds modeled after granite stones found in a mountain stream, using molds taken directly from the original stones.
     ja: >
       花崗岩のビス止め22個セットです。山中の小川にあった石から型取りして作製しました。
+    fr: >
+      Cet ensemble de 22 prises à visser est inspiré de pierres de granit trouvées dans un ruisseau de montagne, moulées directement à partir des pierres originales.
   photos:
     - granite_screw_on_1.jpg
     - granite_screw_on_2.jpg
@@ -190,6 +219,8 @@
       As it is made from granite polished in a riverbed, the surface is generally smooth, but it becomes grippable once chalked up. When oriented vertically, it requires a "wrap grip"; when oriented horizontally, you can choose between a relatively manageable grip and an extremely difficult one.
     ja: >
       河原で磨かれた花崗岩のため全体的にツルツルしていますが、チョークが馴染むと持てるようになります。縦向きではラップ持ち、横向きでは比較的持てる向きと極悪な向きが選べます。
+    fr: >
+      Fabriquée à partir de granit poli par un lit de rivière, la surface est généralement lisse mais devient adhérente avec de la magnésie. En position verticale, elle demande une prise enveloppante ; en position horizontale, on peut choisir entre une orientation relativement accessible et une orientation extrêmement difficile.
   photos:
     - granite_gr_3_1.jpg
     - granite_gr_3_2.jpg
@@ -208,6 +239,10 @@
   description_i18n:
     en: >
       This set combines a smooth, no-tex surface with a grippy finish to create slightly incut, organic sloper shapes.
+    ja: >
+      スムーズなノーテクスチャ面とグリップ感のある仕上げを組み合わせ、少しインカットした有機的なスローパー形状を作り出したセットです。
+    fr: >
+      Cet ensemble combine une surface lisse sans texture avec une finition adhérente pour créer des slopers organiques légèrement incut.
   photos:
     - twoface_incut_sloper_m_1.webp
     - twoface_incut_sloper_m_2.webp
@@ -234,6 +269,8 @@
       スリーフィンガーで保持したり絶妙なクライミングのリズムを作れます。
 
       緩い傾斜ならガシッとつかめてビギナーやエントリー向けにも良い
+    fr: >
+      Ces prises présentent un profil profondément incut malgré leur largeur modeste, avec un rebord en sous-coupe offrant une sensation proche d’une prise en forme de poche profonde. Elles permettent une prise à trois doigts et aident à trouver un rythme d’escalade fluide. Sur des inclinaisons plus douces, elles offrent une prise solide et sécurisée, idéale pour les débutants.
   photos:
     - hueco_roof_jugs_1.webp
     - hueco_roof_jugs_2.webp
@@ -249,6 +286,10 @@
   currency: JPY
   quantity: 4
   description_i18n:
+    en: >
+      This innovative wooden hold features an original friction coating and is made from hinoki cypress, a material known for its excellent texture and durability. The natural feel and warmth of the wood provide comfort and confidence for climbers. Hinoki is a material Japan is proud of, known for its calming scent, ability to support concentration, and versatility in shaping.
+    fr: >
+      Cette prise en bois innovante utilise une finition de friction originale et est fabriquée en cyprès hinoki, un bois japonais reconnu pour sa texture et sa durabilité. Sa sensation naturelle et sa chaleur apportent confort et confiance aux grimpeurs. Le hinoki est un matériau dont le Japon est fier, apprécié pour son parfum apaisant, sa capacité à favoriser la concentration et sa facilité de travail permettant de nombreuses formes.
     ja: >
       この商品はオリジナルフリクション塗装を施した画期的な木製ホールドで、質感、耐久性に優れた「ヒノキ材」を使用しています。
       手の馴染み方、木のぬくもりが、ボルダリングを楽しむすべての人に安心と快適さを提供します。
@@ -270,6 +311,10 @@
   currency: JPY
   quantity: 4
   description_i18n:
+    en: >
+      Have you ever seen a burl in wood? It is a small natural miracle created by trees. We found new value in this part that may seem unnecessary as a building material. By using these burls, we created COBU-HOLD, where no two shapes are exactly the same.
+    fr: >
+      Avez-vous déjà vu une loupe de bois ? C’est un petit miracle naturel créé par les arbres. Nous avons découvert une nouvelle valeur dans cette partie souvent considérée comme inutile pour les matériaux de construction. En utilisant ces loupes, nous avons créé le « COBU-HOLD », dont chaque forme est absolument unique.
     ja: >
       木の瘤（こぶ）を見たことはありますか？ 自然界に生まれる、木の持つ小さな奇跡です。
       建築材料としては一見不要に思えるこの部分に、私たちは新たな価値を見出しました。
@@ -291,6 +336,10 @@
   description_i18n:
     en: >
       The Freeflap Jug series offers a hold that's halfway between a plywood volume and a traditional climbing hold. It's surprinsingly verstaile, being suitable for beginner climbs, coordination moves, and even steep overhangs.
+    ja: >
+      Freeflap Jugシリーズは、合板ボリュームと一般的なクライミングホールドの中間のようなホールドです。初心者向け課題からコーディネーション、強傾斜まで対応できる驚くほど汎用性の高い形状です。
+    fr: >
+      La série Freeflap Jug propose une prise à mi-chemin entre un volume en contreplaqué et une prise d’escalade traditionnelle. Elle est étonnamment polyvalente, adaptée aux débutants, aux mouvements de coordination et même aux forts dévers.
   photos:
     - freeflap_jug_1.jpg
     - freeflap_jug_2.jpg
@@ -312,6 +361,10 @@
       強制的にセパレート持ちになる形状。
       Dual Texになって更に強制力アップ。
       可愛くて目立つのもオススメポイントです。
+    fr: >
+      Une forme qui force naturellement une prise séparée. Avec le Dual Tex, cet effet est encore renforcé. Son apparence mignonne et très visible est aussi un de ses points forts.
+    en: >
+      A shape that naturally forces a separated grip. The Dual Tex finish enhances this effect even further. Its cute and eye-catching appearance is another highlight.
   photos:
     - amoeba_1.jpg
     - amoeba_2.jpg
@@ -331,6 +384,10 @@
   description_i18n:
     en: >
       These dual-tex pinches stand out due to their glossy appearance, reminiscent of mud or melted wax.
+    ja: >
+      泥や溶けたロウを思わせる光沢感が特徴的なDual Texピンチです。
+    fr: >
+      Ces pinces Dual Tex se distinguent par leur apparence brillante, rappelant la boue ou la cire fondue.
   photos:
     - dorodoro_1.jpg
     - dorodoro_2.jpg
@@ -351,6 +408,10 @@
     ja: >
       シェイプのアウトラインが特徴的なモデル。
       やや薄めのJugなので、ホールドの厚みを出したくない時はこのモデルがおすすめ
+    fr: >
+      Un modèle caractérisé par son contour de forme unique. Comme il s’agit d’un jug légèrement fin, il est recommandé lorsque vous ne souhaitez pas ajouter trop d’épaisseur à la prise.
+    en: >
+      A model characterized by its distinctive shape outline. Since it is a slightly thin jug, this model is recommended when you want to add grip without increasing the thickness of the hold.
   photos:
     - noah_2_1.png
     - noah_2_2.png
@@ -369,6 +430,10 @@
     ja: >
       小ぶりな大きさに仕上がっているが厚みがある為、かなりポジティブな保持感となっている。
       保持面がかなり立っている為、強傾斜ではピンチとしても使用可能。
+    fr: >
+      Malgré sa petite taille, son épaisseur lui donne une sensation de prise très positive. La surface de préhension étant assez verticale, il peut aussi être utilisé comme pince sur des dévers raides.
+    en: >
+      Although it has a compact size, its thickness gives it a very positive grip. Since the gripping surface is quite vertical, it can also be used as a pinch on steep overhangs.
   photos:
     - surf_reserve_2_1.webp
     - surf_reserve_2_2.webp
@@ -388,6 +453,10 @@
   description_i18n:
     en: >
       A smooth macro with a beautiful dual-texture finish.
+    ja: >
+      美しいDual Tex仕上げを持つ、滑らかなマクロホールドです。
+    fr: >
+      Un macro lisse avec une magnifique finition Dual Tex.
   photos:
     - mirror_1_1.webp
     - mirror_1_2.webp
@@ -404,6 +473,10 @@
   description_i18n:
     en: >
       A smaller 140cm version of the classic “tuna” hold seen in IFSC competitions and gyms across Japan.
+    ja: >
+      IFSC大会や日本のジムで見られる定番「マグロ」ホールドを140cmサイズに小型化したモデルです。
+    fr: >
+      Une version plus petite de 140 cm de la prise classique « tuna » vue dans les compétitions IFSC et les salles japonaises.
   photos:
     - tuna_dt_1.webp
     - tuna_dt_2.webp
