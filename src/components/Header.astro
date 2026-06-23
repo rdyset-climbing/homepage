@@ -11,7 +11,8 @@ const locale = Astro.currentLocale ?? "en";
   <div class="header-left">
     <h1>
       <a href={`/${locale}`}
-        ><img src="/images/readyset_1.svg" alt="ReadySet" /></a>
+        ><img src="/images/readyset_1.svg" alt="ReadySet" /></a
+      >
     </h1>
   </div>
   <nav class="header-right">
@@ -35,8 +36,10 @@ const locale = Astro.currentLocale ?? "en";
   .header {
     background: white;
     padding: var(--halfSpacing);
-    display: flex;
-    justify-content: space-between;
+    @media (min-width: 768px) {
+      display: flex;
+      justify-content: space-between;
+    }
   }
   .header-left {
     display: flex;
