@@ -1,18 +1,38 @@
 ---
 const locales = [
-  { code: "en", label: "EN" },
-  { code: "fr", label: "FR" },
-  { code: "ja", label: "日本語" },
+  { code: "en", label: "EN", currency: "USD" },
+  { code: "fr", label: "FR", currency: "EUR" },
+  { code: "ja", label: "日本語", currency: "JPY" },
 ];
 ---
 
 <div class="locale-switcher">
-  {locales.map(({ code, label }) => (
-    <button class="locale-btn" data-locale={code}>{label}</button>
-  ))}
+  {
+    locales.map(({ code, label, currency }) => (
+      <button
+        class="locale-btn currency-btn"
+        data-currency={currency}
+        data-locale={code}
+      >
+        {label}
+      </button>
+    ))
+  }
 </div>
 
 <script>
+  // currency
+  const STORAGE_KEY = "currency";
+
+  function updateCurrencyButtons(active: string) {
+    document
+      .querySelectorAll<HTMLButtonElement>(".currency-btn")
+      .forEach((btn) => {
+        btn.classList.toggle("active", btn.dataset.currency === active);
+      });
+  }
+
+  // locale
   const locales = ["en", "fr", "ja"];
 
   function currentLocale(): string {
@@ -26,20 +46,40 @@ const locales = [
     return parts.join("/") || "/";
   }
 
-  function updateButtons(active: string) {
-    document.querySelectorAll<HTMLButtonElement>(".locale-btn").forEach((btn) => {
-      btn.classList.toggle("active", btn.dataset.locale === active);
-    });
+  function updateLocaleButtons(active: string) {
+    document
+      .querySelectorAll<HTMLButtonElement>(".locale-btn")
+      .forEach((btn) => {
+        btn.classList.toggle("active", btn.dataset.locale === active);
+      });
   }
 
   function init() {
-    updateButtons(currentLocale());
+    updateLocaleButtons(currentLocale());
 
-    document.querySelectorAll<HTMLButtonElement>(".locale-btn").forEach((btn) => {
-      btn.addEventListener("click", () => {
-        window.location.href = localePath(btn.dataset.locale!);
+    document
+      .querySelectorAll<HTMLButtonElement>(".locale-btn")
+      .forEach((btn) => {
+        btn.addEventListener("click", () => {
+          window.location.href = localePath(btn.dataset.locale!);
+        });
       });
-    });
+
+    const stored = localStorage.getItem(STORAGE_KEY) || "JPY";
+    updateCurrencyButtons(stored);
+
+    document
+      .querySelectorAll<HTMLButtonElement>(".currency-btn")
+      .forEach((btn) => {
+        btn.addEventListener("click", () => {
+          const currency = btn.dataset.currency!;
+          localStorage.setItem(STORAGE_KEY, currency);
+          updateCurrencyButtons(currency);
+          window.dispatchEvent(
+            new CustomEvent("currencychange", { detail: currency }),
+          );
+        });
+      });
   }
 
   init();

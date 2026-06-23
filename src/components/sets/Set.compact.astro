@@ -2,6 +2,7 @@
 import { Image } from "astro:assets";
 import { getSetById, getSetPath, getSetPhoto } from "../../content";
 import Price from "../other/Price.astro";
+import T2 from "../T2.astro";
 
 const { id } = Astro.props;
 const set = await getSetById(id);
@@ -16,7 +17,9 @@ const { name, url, photos, brand, description_i18n, currency, price } =
     <h3 class="set-name">{name}</h3>
     <span><Price currency={currency} price={price} /></span>
   </div>
-  <div>{description_i18n.en}</div>
+  <div>
+    <T2 content={description_i18n} />
+  </div>
   <div class="set-photos">
     {
       photos.map((photo) => (

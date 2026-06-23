@@ -1,9 +1,0 @@
----
-import Layout from "../../layouts/Layout.astro";
-import { getString } from "../../content";
-import Brands from "../../components/brands/Brands.astro";
----
-
-<Layout title={getString("brands", { locale: Astro.currentLocale })?.t}>
-  <Brands />
-</Layout>

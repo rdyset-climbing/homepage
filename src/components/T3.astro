@@ -1,0 +1,7 @@
+---
+const { file } = Astro.props;
+const locale = Astro.currentLocale;
+const { default: File } = await import(`../mdx/${locale}/${file}.mdx`);
+---
+
+<div><File /></div>

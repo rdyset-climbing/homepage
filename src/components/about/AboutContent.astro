@@ -1,18 +1,13 @@
 ---
-import { getString } from "../content";
-import Layout from "../layouts/Layout.astro";
-import About from "../mdx/About.mdx";
-import Faq from "../mdx/Faq.mdx";
+import T3 from "../T3.astro";
 ---
 
-<Layout title={getString("about", { locale: Astro.currentLocale })?.t}>
-  <div class="about">
-    <About />
-  </div>
-  <div class="faq">
-    <Faq />
-  </div>
-</Layout>
+<div class="about">
+  <T3 file="About" />
+</div>
+<div class="faq">
+  <T3 file="Faq" />
+</div>
 
 <style>
   .about,

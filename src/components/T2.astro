@@ -1,0 +1,6 @@
+---
+const { content } = Astro.props;
+const locale = Astro.currentLocale;
+---
+
+<span>{content[locale]}</span>

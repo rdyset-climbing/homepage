@@ -4,6 +4,7 @@ import Homepage from "../icons/Homepage.astro";
 import Instagram from "../icons/Instagram.astro";
 import Price from "../other/Price.astro";
 import Set from "../sets/Set.compact.astro";
+import T2 from "../T2.astro";
 import Tags from "./Tags.astro";
 
 const { id } = Astro.props;
@@ -31,7 +32,7 @@ const sets = await getSetsByBrandId(brand.id);
         >
       </div>
       <div class="brand-description">
-        {description_i18n.en}
+        <T2 content={description_i18n} />
       </div>
     </div>
   </div>
