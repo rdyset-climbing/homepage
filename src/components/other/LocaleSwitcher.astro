@@ -24,14 +24,6 @@ const locales = [
   // currency
   const STORAGE_KEY = "currency";
 
-  function updateCurrencyButtons(active: string) {
-    document
-      .querySelectorAll<HTMLButtonElement>(".currency-btn")
-      .forEach((btn) => {
-        btn.classList.toggle("active", btn.dataset.currency === active);
-      });
-  }
-
   // locale
   const locales = ["en", "fr", "ja"];
 
@@ -62,19 +54,8 @@ const locales = [
       .forEach((btn) => {
         btn.addEventListener("click", () => {
           window.location.href = localePath(btn.dataset.locale!);
-        });
-      });
-
-    const stored = localStorage.getItem(STORAGE_KEY) || "JPY";
-    updateCurrencyButtons(stored);
-
-    document
-      .querySelectorAll<HTMLButtonElement>(".currency-btn")
-      .forEach((btn) => {
-        btn.addEventListener("click", () => {
           const currency = btn.dataset.currency!;
           localStorage.setItem(STORAGE_KEY, currency);
-          updateCurrencyButtons(currency);
           window.dispatchEvent(
             new CustomEvent("currencychange", { detail: currency }),
           );
