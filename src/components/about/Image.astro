@@ -1,14 +1,51 @@
 ---
 import { Image } from "astro:assets";
-import { getSetById, getSetPhoto } from "../../content";
+import {
+  getBrandById,
+  getBrandPath,
+  getSetById,
+  getSetPhoto,
+} from "../../content";
 
-const { set, photo, caption } = Astro.props;
+const { brandId, set, photo, caption } = Astro.props;
 
+const brand = await getBrandById(brandId);
 const holdSet = await getSetById(set);
 const imageSrc = holdSet && getSetPhoto(holdSet, photo);
 ---
 
 <figure class="image">
-  <Image height={300} width={300} src={imageSrc} alt="foo" />
+  <div class="image-inner">
+    <a href={getBrandPath(brand)}>
+      <Image
+        height={300}
+        width={300}
+        src={imageSrc}
+        alt={holdSet?.data.name || "not found"}
+      />
+    </a>
+    <div class="set-name">
+      {holdSet.data.name} by {brand.data.name}
+    </div>
+  </div>
   <figcaption>{caption}</figcaption>
 </figure>
+
+<style>
+  .image-inner {
+    position: relative;
+    border: 3px solid #333;
+    margin-bottom: var(--halfSpacing);
+  }
+  .set-name {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: #333;
+    color: #fff;
+    padding: 5px;
+    font-size: 0.8rem;
+    max-width: 80%;
+    pointer-events: none;
+  }
+</style>

@@ -1,8 +1,50 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import About from "../mdx/About.mdx";
+import Faq from "../mdx/Faq.mdx";
 ---
 
 <Layout>
-  <About />
+  <div class="about">
+    <About />
+  </div>
+  <div class="faq">
+    <Faq />
+  </div>
 </Layout>
+
+<style>
+  .about,
+  .faq {
+    clear: both;
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.3rem;
+    h3 {
+      font-size: 2.5rem;
+    }
+    h4 {
+      font-weight: bold;
+      margin-top: var(--spacing);
+    }
+    figure {
+      max-width: 300px;
+      margin-bottom: var(--spacing);
+      figcaption {
+        font-size: 1rem;
+        text-transform: uppercase;
+      }
+      &:nth-of-type(2n) {
+        float: right;
+        margin-right: calc(-1 * var(--doubleSpacing));
+      }
+      &:nth-of-type(2n + 1) {
+        float: left;
+        margin-left: calc(-1 * var(--doubleSpacing));
+      }
+      hr {
+        clear: both;
+      }
+    }
+  }
+</style>
