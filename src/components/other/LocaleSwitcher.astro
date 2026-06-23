@@ -1,0 +1,72 @@
+---
+const locales = [
+  { code: "en", label: "EN" },
+  { code: "fr", label: "FR" },
+  { code: "ja", label: "日本語" },
+];
+---
+
+<div class="locale-switcher">
+  {locales.map(({ code, label }) => (
+    <button class="locale-btn" data-locale={code}>{label}</button>
+  ))}
+</div>
+
+<script>
+  const locales = ["en", "fr", "ja"];
+
+  function currentLocale(): string {
+    const segment = window.location.pathname.split("/")[1];
+    return locales.includes(segment) ? segment : "en";
+  }
+
+  function localePath(locale: string): string {
+    const parts = window.location.pathname.split("/");
+    parts[1] = locale;
+    return parts.join("/") || "/";
+  }
+
+  function updateButtons(active: string) {
+    document.querySelectorAll<HTMLButtonElement>(".locale-btn").forEach((btn) => {
+      btn.classList.toggle("active", btn.dataset.locale === active);
+    });
+  }
+
+  function init() {
+    updateButtons(currentLocale());
+
+    document.querySelectorAll<HTMLButtonElement>(".locale-btn").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        window.location.href = localePath(btn.dataset.locale!);
+      });
+    });
+  }
+
+  init();
+</script>
+
+<style>
+  .locale-switcher {
+    display: flex;
+    gap: 4px;
+  }
+  .locale-btn {
+    border: 1px solid #333;
+    background: none;
+    padding: 4px 8px;
+    cursor: pointer;
+    font-size: 0.85rem;
+    font-family: inherit;
+    opacity: 0.4;
+
+    &.active {
+      background: #333;
+      color: white;
+      opacity: 1;
+    }
+
+    &:hover:not(.active) {
+      opacity: 0.8;
+    }
+  }
+</style>

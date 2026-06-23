@@ -1,0 +1,29 @@
+---
+import type { GetStaticPaths } from "astro";
+import Intro from "../../components/about/Intro.astro";
+import Brands from "../../components/brands/Brands.astro";
+import T from "../../components/T.astro";
+import Layout from "../../layouts/Layout.astro";
+
+export const getStaticPaths = (() => {
+  return [
+    { params: { locale: "en" } },
+    { params: { locale: "fr" } },
+    { params: { locale: "ja" } },
+  ];
+}) satisfies GetStaticPaths;
+---
+
+<Layout>
+  <h2><T k="tagline" /></h2>
+  <Brands />
+  <Intro />
+</Layout>
+
+<style>
+  h2 {
+    text-align: center;
+    margin-bottom: var(--spacing);
+    font-size: 2rem;
+  }
+</style>

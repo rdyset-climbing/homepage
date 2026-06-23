@@ -2,7 +2,8 @@
 import { getString } from "../content";
 
 const { k, kPlural, count, fallback } = Astro.props;
-const { t, tPlural } = getString(k, { kPlural, count, fallback });
+const locale = Astro.currentLocale;
+const { t, tPlural } = getString(k, { kPlural, count, fallback, locale });
 ---
 
 <span data-key={k}>{tPlural || t || fallback || k}</span>

@@ -4,6 +4,10 @@ import en from "./locales/en.yml";
 import fr from "./locales/fr.yml";
 import ja from "./locales/ja.yml";
 
+const locales = { en, fr, ja } as Record<string, typeof en>;
+
+const defaultLocale = "en";
+
 import { getCollection, type CollectionEntry } from "astro:content";
 
 export const getString = (
@@ -12,10 +16,12 @@ export const getString = (
     kPlural?: string;
     count?: number;
     fallback?: string;
+    locale?: string;
   } = {},
 ) => {
-  const { count, fallback = k } = options;
-  const s = en.find((s) => s.key === k);
+  const { count, fallback = k, locale = "en" } = options;
+  const strings = locales[locale] ?? en;
+  const s = strings.find((s) => s.key === k) ?? en.find((s) => s.key === k);
   let t = s?.t || fallback;
   const tPlural = s?.tPlural;
   if (tPlural && count && count > 1) {
@@ -38,8 +44,10 @@ export const getBrandById = async (id: string) => {
   return brands.find((brand) => brand.id === id);
 };
 
-export const getBrandPath = (brand: CollectionEntry<"brands">) =>
-  `/brands/${idToSlug(brand.id)}`;
+export const getBrandPath = (
+  brand: CollectionEntry<"brands">,
+  currentLocale = defaultLocale,
+) => `${currentLocale}/brands/${idToSlug(brand.id)}`;
 
 export const getBrandPhoto = (brand: CollectionEntry<"brands">) => {
   const images = getAllSetImages();
@@ -60,8 +68,10 @@ export const getSetById = async (id: string) => {
   return sets.find((set) => set.id === id);
 };
 
-export const getSetPath = (set: CollectionEntry<"hold_sets">) =>
-  `/sets/${idToSlug(set.id)}`;
+export const getSetPath = (
+  set: CollectionEntry<"hold_sets">,
+  currentLocale = defaultLocale,
+) => `${currentLocale}/sets/${idToSlug(set.id)}`;
 
 export const getAllSetImages = () => {
   const images = import.meta.glob("./assets/holds/*/*", {

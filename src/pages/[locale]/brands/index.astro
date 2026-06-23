@@ -1,0 +1,14 @@
+---
+import type { GetStaticPaths } from "astro";
+import Layout from "../../../layouts/Layout.astro";
+import { getString } from "../../../content";
+import Brands from "../../../components/brands/Brands.astro";
+
+export const getStaticPaths = (() => {
+  return [{ params: { locale: "fr" } }, { params: { locale: "ja" } }];
+}) satisfies GetStaticPaths;
+---
+
+<Layout title={getString("brands", { locale: Astro.currentLocale })?.t}>
+  <Brands />
+</Layout>

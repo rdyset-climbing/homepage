@@ -4,6 +4,6 @@ import { getString } from "../../content";
 import Brands from "../../components/brands/Brands.astro";
 ---
 
-<Layout title={getString("brands")?.t}>
+<Layout title={getString("brands", { locale: Astro.currentLocale })?.t}>
   <Brands />
 </Layout>

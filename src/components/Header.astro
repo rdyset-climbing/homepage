@@ -1,26 +1,29 @@
 ---
 import Currency from "./other/Currency.astro";
+import LocaleSwitcher from "./other/LocaleSwitcher.astro";
 import T from "./T.astro";
 // const nav = ["about", "brands"];
 const nav = ["about"];
+const locale = Astro.currentLocale ?? "en";
 ---
 
 <div class="header">
   <div class="header-left">
-    <h1><a href="/"><img src="/images/readyset_1.svg" alt="ReadySet" /></a></h1>
+    <h1><a href={`/${locale}`}><img src="/images/readyset_1.svg" alt="ReadySet" /></a></h1>
   </div>
   <nav class="header-right">
     <ul>
       {
         nav.map((item) => (
           <li>
-            <a href={`/${item}`}>
+            <a href={`/${locale}/${item}`}>
               <T k={item} />
             </a>
           </li>
         ))
       }
     </ul>
+    <LocaleSwitcher />
     <Currency />
   </nav>
 </div>

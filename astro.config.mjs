@@ -10,4 +10,8 @@ export default defineConfig({
   site: "https://www.rdyset.com",
   prefetch: true,
   integrations: [mdx()],
+  i18n: {
+    defaultLocale: "en",
+    locales: ["en", "fr", "ja"],
+  },
 });

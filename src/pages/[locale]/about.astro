@@ -1,8 +1,13 @@
 ---
-import { getString } from "../content";
-import Layout from "../layouts/Layout.astro";
-import About from "../mdx/About.mdx";
-import Faq from "../mdx/Faq.mdx";
+import type { GetStaticPaths } from "astro";
+import { getString } from "../../content";
+import Layout from "../../layouts/Layout.astro";
+import About from "../../mdx/About.mdx";
+import Faq from "../../mdx/Faq.mdx";
+
+export const getStaticPaths = (() => {
+  return [{ params: { locale: "fr" } }, { params: { locale: "ja" } }];
+}) satisfies GetStaticPaths;
 ---
 
 <Layout title={getString("about", { locale: Astro.currentLocale })?.t}>

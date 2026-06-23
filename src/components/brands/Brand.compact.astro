@@ -18,7 +18,7 @@ const image = getBrandPhoto(brand);
 <div class="brand-compact">
   {
     image && (
-      <a href={getBrandPath(brand)}>
+      <a href={getBrandPath(brand, Astro.currentLocale)}>
         <Image width={400} height={300} alt={name} src={image} />
       </a>
     )
