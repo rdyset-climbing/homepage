@@ -65,7 +65,7 @@
 #     - holds
 
 - id: hazama_holds
-  status: 1
+  status: 3
   name: Hazama Holds
   url: https://seen-perfume-126.notion.site/Hazama-holds-29f13ea8327180b28c25dfff4cb28e77
   photo: plates_edges_1.webp
@@ -390,7 +390,7 @@
     - macros
 
 - id: fat_cap
-  status: 1
+  status: 3
   name: Fat Cap
   url: https://fatcap.official.ec/
   photo: kuma_1.jpg
@@ -538,7 +538,7 @@
   name: K16
   url: https://k16climbinghold.stores.jp/
   photo: noah_2_1.png
-  instagram: https://www.instagram.com/k16_climbinghold
+  instagram: k16_climbinghold
   city:
   description_i18n:
     en: >

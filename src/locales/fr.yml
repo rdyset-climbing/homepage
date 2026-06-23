@@ -19,3 +19,6 @@
   t: Volumes
 - key: tags.macros
   t: Macros
+
+- key: set.price.disclaimer
+  t: Prix indicatifs uniquement. Consultez le site du fabricant pour connaître les tarifs actuels.

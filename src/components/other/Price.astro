@@ -1,10 +1,13 @@
 ---
+import { getString } from "../../content";
 const { currency: defaultCurrency, price } = Astro.props;
+const disclaimer = getString("set.price.disclaimer", { locale: Astro.currentLocale }).t;
 ---
 
 <price-display
   data-price={price}
-  data-default-currency={defaultCurrency || "JPY"}></price-display>
+  data-default-currency={defaultCurrency || "JPY"}
+  title={disclaimer}></price-display>
 
 <script>
   const STORAGE_KEY = "currency";
@@ -19,6 +22,11 @@ const { currency: defaultCurrency, price } = Astro.props;
     EUR: "€",
     USD: "$",
   };
+  const symbols2: Record<string, string> = {
+    JPY: "約",
+    EUR: "≈",
+    USD: "~",
+  };
 
   class PriceDisplay extends HTMLElement {
     connectedCallback() {
@@ -32,7 +40,13 @@ const { currency: defaultCurrency, price } = Astro.props;
       const currency = localStorage.getItem(STORAGE_KEY) || defaultCurrency;
       const converted = Math.round(price * ratios[currency]);
       const formatted = new Intl.NumberFormat().format(converted);
-      this.textContent = `${symbols[currency]}${formatted}`;
+      let priceFormatted;
+      if (["JPY", "EUR"].includes(currency)) {
+        priceFormatted = `${formatted}${symbols[currency]}`;
+      } else {
+        priceFormatted = `${symbols[currency]}${formatted}`;
+      }
+      this.textContent = `${symbols2[currency]}${priceFormatted}`;
     }
   }
 

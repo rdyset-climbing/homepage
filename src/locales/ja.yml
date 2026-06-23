@@ -19,3 +19,6 @@
   t: ボテ
 - key: tags.macros
   t: 大型ホールド
+
+- key: set.price.disclaimer
+  t: 参考価格です。最新の価格は各メーカーのウェブサイトをご確認ください。

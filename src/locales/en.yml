@@ -21,3 +21,6 @@
   t: Volumes
 - key: tags.macros
   t: Macros
+
+- key: set.price.disclaimer
+  t: Provided for reference only. Please refer to the manufacturer’s website for up-to-date pricing.
