@@ -17,3 +17,7 @@
   t: Wooden holds
 - key: tags.rock_like
   t: Rock-like
+- key: tags.volumes
+  t: Volumes
+- key: tags.macros
+  t: Macros

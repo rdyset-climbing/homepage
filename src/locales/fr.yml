@@ -15,3 +15,7 @@
   t: Quincaillerie
 - key: tags.rock_like
   t: Aspect rocheux
+- key: tags.volumes
+  t: Volumes
+- key: tags.macros
+  t: Macros
