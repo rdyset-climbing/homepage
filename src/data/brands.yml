@@ -15,19 +15,17 @@
       Under Blue Holds est probablement la marque de prises la plus connue du Japon, en large partie grace à leur prise “maguro” (“thon” en Japonais) qui a meme fait partie de blocs de coupe du monde.
 
       Ils se spécialisent dans les volumes et les prises de large envergure, ce qui en fait une option idéale pour ouvrir des blocs de compétition modernes.
-    ja: >
-      xxx
-  founder:
-    name_i18n:
-      en: XXX
-      ja: YYY
-    bio_i18n:
-      en: >
-        bio XXX
-      ja: >
-        bio YYY
-      fr: >
-        bio ZZZ
+    # founder:
+    #   name_i18n:
+    #     en: XXX
+    #     ja: YYY
+    #   bio_i18n:
+    #     en: >
+    #       bio XXX
+    #     ja: >
+    #       bio YYY
+    #     fr: >
+    #       bio ZZZ
     photo:
   moves:
     - dynamic
@@ -70,15 +68,13 @@
   city:
   description_i18n:
     en: >
-      Hazama Holds offer a large variety of realistic, rock-like holds, each carefully designed to offer a different climbing experience.
+      Hazama Holds offer a large variety of realistic, rock_like holds, each carefully designed to offer a different climbing experience.
 
       These holds are perfect to set precise, technical climbs that emulate outdoor climbing while remaining gentle on the fingers.
     fr: >
       Hazama Holds offre une large variété de prises réalistes, chacunes conçues pour offrir une expérience différente à chaque fois. 
 
       Ces prises sont parfaites pour ouvrir des blocs techniques et précis, qui simulent la grimpe en extérieur tout en ménageant la peau.
-    ja: >
-      xxx
   founder:
     name_i18n:
       en:
@@ -92,7 +88,7 @@
     - precision
   tags:
     - small_holds
-    - rock-like
+    - rock_like
 
 - id: mojo_holds
   status: 1
@@ -105,13 +101,11 @@
     en: >
       Mojo is one of Japan's fastest-growing hold makers, and their holds offer a new take on the dual-tex hold, featuring a very unique blend of no-texture surface combined with realistic rock shapes. 
 
-      They are perfect to introduce gym-goers to more rock-like sensations while preserving the fun, flowy style that makes large macros so great in the first place.
+      They are perfect to introduce gym-goers to more rock_like sensations while preserving the fun, flowy style that makes large macros so great in the first place.
     fr: >
       Mojo est une des marques connaissant le plus de succès au Japon actuellement, et leur prises proposent une nouvelle vision du dual-tex, avec un mélange asez unique de surface non-texturée et de zone émulant la roche naturelle. 
 
       C'est un moyen parfait de proposer aux grimpeurs en salle des sensations plus proches de la grimpe en extérieur, tout en préservant le style fun et fluide auquel ils sont habitués.
-    ja: >
-      xxx
   founder:
     name_i18n:
       en:
@@ -125,7 +119,7 @@
     - powerful
     - precision
   tags:
-    - rock-like
+    - rock_like
 
 # - id: k_crimp
 #   status: 1
@@ -262,8 +256,6 @@
       Volny est connu pour être la salle possédant le spraywall le plus dense au monde, mais leur collection de prises mérite également le détour. 
 
       Volny se spécialise dans les prises plus petites, et cela se ressent dans leur gamme, où chaque prise est méticuleusement étudiée pour forcer une position des doigts spécifiques ou poser de nouveaux challenges aux grimpeurs. Comme quoi les petites prises peuvent être toutes aussi intéressantes que les grandes!
-    ja: >
-      xxx
   founder:
     name_i18n:
       en:
@@ -324,8 +316,6 @@
       La mission d'Iwakagami est de simuler la grimpe en extérieur, et pour se faire ils travaillent chaque prise individuellement afin de lui donner un aspect le plus proche de la vraie roche possible.
 
       Le résultat est une grimpe en intérieur qui demande d'ajuster la position des doigts et du corps au millimètre près, tout en préservant la peau.
-    ja: >
-      xxx
   founder:
     name_i18n:
       en:
@@ -338,7 +328,7 @@
   moves:
     - precision
   tags:
-    - rock-like
+    - rock_like
     - macros
 
 - id: tataanz
@@ -357,8 +347,6 @@
       Tataanz joue a brouiller la ligne entre prise et volume en produisant des formes rondes et ludiques qui donnent envie de sauter sur le mur les essayer dès qu'on les aperçoit. 
 
       Leur prises sont parfaites pour offrir une expérience de grimpe sur volumes, tout en demandant moins de contraction et de tension que les volumes traditionels.
-    ja: >
-      xxx
   founder:
     name_i18n:
       en:
@@ -388,10 +376,6 @@
       Fat Cap is famous for its teddy-bear holds, but don't be fooled by their cute appearance: wrestling those bears can be (almost) as challenging as fighting the real animal. 
 
       Fat Cap also sells hardware for volume and climbing wall manufacturing.
-    fr: >
-      xxx
-    ja: >
-      xxx
   founder:
     name_i18n:
       en:
@@ -474,8 +458,6 @@
       Monkey Holds a perfectionné l'art de produire des prises en bois en leur ajoutant un finish texturé transparent, qui permet d'avoir plus de friction sans pour autant nuir a la beauté naturelle du matériau. 
 
       Le résultat est une gamme de prises utilisables même sur les dévers plus forts, à un prix qui reste très abordable.
-    ja: >
-      xxx
   founder:
     name_i18n:
       en:
@@ -498,7 +480,7 @@
 #   city:
 #   description_i18n:
 #     en: >
-#       Radical produces small rock-like crimps.
+#       Radical produces small rock_like crimps.
 #     ja: >
 #       xxx
 #     fr: >
@@ -534,8 +516,6 @@
       Une autre marque Japonais en plein dévelopmment, K16 propose des prises en fibre de verre qui se remarquent dès qu'on lève les yeux.
 
       Leur gamme no-tex (prises non texturées) sort notamment du lot, et permet soit de rompre la monotonie d'un bloc, soit même de créer tout un bloc sans texture qui posera a coup sûr de nouveaux challenges à tout grimpeur.
-    ja: >
-      xxx
   founder:
     name_i18n:
       en:

@@ -1,10 +1,11 @@
 ---
+import { getString } from "../content";
 import Layout from "../layouts/Layout.astro";
 import About from "../mdx/About.mdx";
 import Faq from "../mdx/Faq.mdx";
 ---
 
-<Layout>
+<Layout title={getString("about")?.t}>
   <div class="about">
     <About />
   </div>

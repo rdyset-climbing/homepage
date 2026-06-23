@@ -1,5 +1,6 @@
 ---
 import Currency from "./other/Currency.astro";
+import T from "./T.astro";
 // const nav = ["about", "brands"];
 const nav = ["about"];
 ---
@@ -13,7 +14,9 @@ const nav = ["about"];
       {
         nav.map((item) => (
           <li>
-            <a href={`/${item}`}>{item}</a>
+            <a href={`/${item}`}>
+              <T k={item} />
+            </a>
           </li>
         ))
       }

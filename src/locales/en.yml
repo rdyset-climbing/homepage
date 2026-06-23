@@ -1,2 +1,19 @@
-- key: foo
-  t: bar
+- key: tagline
+  t: Showcasing the craft of Japanese climbing holds
+
+- key: brands
+  t: Brands
+
+- key: about
+  t: About
+
+- key: tags.small_holds
+  t: Small holds
+- key: tags.wooden_holds
+  t: Wooden holds
+- key: tags.hardware
+  t: Hardware
+- key: tags.wooden_holds
+  t: Wooden holds
+- key: tags.rock_like
+  t: Rock-like

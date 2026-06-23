@@ -28,11 +28,13 @@ const brands = defineCollection({
     instagram: optionalString,
     status: z.number().optional(),
     photo: z.string().optional(),
-    founder: z.object({
-      name_i18n: i18nString,
-      bio_i18n: i18nString,
-      photo: optionalString,
-    }),
+    founder: z
+      .object({
+        name_i18n: i18nString,
+        bio_i18n: i18nString,
+        photo: optionalString,
+      })
+      .optional(),
     tags: z.array(z.string()).optional().default([]),
   }),
 });
