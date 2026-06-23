@@ -254,7 +254,7 @@
 #     - macros
 
 - id: volny
-  status: 1
+  status: 3
   name: Volny
   url: https://volny.base.shop/categories/3236401
   photo: amoeba_1.jpg
